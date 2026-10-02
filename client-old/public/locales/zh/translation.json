@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "shop": "商店",
+    "search": "搜索",
+    "cart": "购物车",
+    "login": "登录",
+    "register": "注册",
+    "admin": "管理员"
+  },
+  "home": {
+    "hero_title": "直接来源。",
+    "hero_subtitle": "优质商品。",
+    "hero_desc": "批发与零售卓越结合。直接从源头发现最好的电子产品、服装和五金产品。",
+    "search_placeholder": "搜索产品、品牌或 SKU...",
+    "recently_viewed": "最近浏览",
+    "featured": "精选系列",
+    "trending": "热门趋势",
+    "new_arrivals": "新品上市"
+  },
+  "shop": {
+    "filters": "筛选",
+    "clear_all": "全部清除",
+    "price_range": "价格范围",
+    "condition": "状况",
+    "stock": "可用性",
+    "in_stock": "仅显示有货",
+    "wholesale": "提供批发",
+    "sort": "排序",
+    "sort_relevance": "相关性",
+    "sort_price_asc": "价格：从低到高",
+    "sort_price_desc": "价格：从高到低",
+    "sort_newest": "最新",
+    "sort_popular": "最受欢迎",
+    "sort_rating": "最高评分"
+  },
+  "product": {
+    "add_to_cart": "加入购物车",
+    "buy_now": "立即购买",
+    "request_quote": "申请批量报价",
+    "out_of_stock": "缺货",
+    "condition": "状况",
+    "stock": "库存",
+    "brand": "品牌",
+    "category": "类别",
+    "sku": "SKU",
+    "wholesale_starting_at": "批发起始价",
+    "related_products": "相关产品",
+    "reviews": "评论"
+  },
+  "auth": {
+    "login_title": "欢迎回来",
+    "login_btn": "登录",
+    "register_title": "创建您的账户",
+    "register_btn": "注册",
+    "google_btn": "通过 Google 继续",
+    "email": "电子邮件地址",
+    "password": "密码",
+    "first_name": "名字",
+    "last_name": "姓氏"
+  }
+}

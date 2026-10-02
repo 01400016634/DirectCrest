@@ -1,0 +1,30 @@
+{
+  "Header": {
+    "products": "পণ্য",
+    "categories": "বিভাগ",
+    "chinaSourcing": "চীন সোর্সিং",
+    "shoppingCart": "শপিং কার্ট"
+  },
+  "Cart": {
+    "empty": "আপনার কার্ট বর্তমানে খালি।",
+    "continueShopping": "কেনাকাটা চালিয়ে যান",
+    "subtotal": "সাবটোটাল",
+    "shippingAndTaxes": "শিপিং এবং কর চেকআউট এ গণনা করা হয়।",
+    "checkout": "চেকআউট"
+  },
+  "Checkout": {
+    "shipping": "শিপিং",
+    "billing": "বিল্লিং",
+    "review": "পর্যালোচনা",
+    "orderSummary": "অর্ডারের সারসংক্ষেপ",
+    "subtotal": "সাবটোটাল",
+    "shippingCost": "শিপিং খরচ",
+    "taxes": "কর",
+    "calculatedAtCheckout": "চেকআউট এ গণনা করা হয়",
+    "promoCode": "প্রোমো কোড",
+    "apply": "প্রয়োগ করুন",
+    "discount": "ছাড়",
+    "total": "মোট",
+    "back": "পিছনে"
+  }
+}

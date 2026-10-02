@@ -1,0 +1,30 @@
+{
+  "Header": {
+    "products": "製品",
+    "categories": "カテゴリー",
+    "chinaSourcing": "中国調達",
+    "shoppingCart": "ショッピングカート"
+  },
+  "Cart": {
+    "empty": "カートは現在空です。",
+    "continueShopping": "買い物を続ける",
+    "subtotal": "小計",
+    "shippingAndTaxes": "送料と税金はチェックアウト時に計算されます。",
+    "checkout": "チェックアウト"
+  },
+  "Checkout": {
+    "shipping": "配送",
+    "billing": "請求",
+    "review": "レビュー",
+    "orderSummary": "注文の概要",
+    "subtotal": "小計",
+    "shippingCost": "送料",
+    "taxes": "税金",
+    "calculatedAtCheckout": "チェックアウト時に計算されます",
+    "promoCode": "プロモコード",
+    "apply": "適用",
+    "discount": "割引",
+    "total": "合計",
+    "back": "戻る"
+  }
+}

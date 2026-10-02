@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "shop": "Shop",
+    "search": "Search",
+    "cart": "Cart",
+    "login": "Log In",
+    "register": "Register",
+    "admin": "Admin"
+  },
+  "home": {
+    "hero_title": "Direct Source.",
+    "hero_subtitle": "Premium Goods.",
+    "hero_desc": "Wholesale and retail excellence combined. Discover the best electronics, apparel, and hardware directly from the source.",
+    "search_placeholder": "Search products, brands, or SKUs...",
+    "recently_viewed": "Recently Viewed",
+    "featured": "Featured Collection",
+    "trending": "Trending Now",
+    "new_arrivals": "New Arrivals"
+  },
+  "shop": {
+    "filters": "Filters",
+    "clear_all": "Clear All",
+    "price_range": "Price Range",
+    "condition": "Condition",
+    "stock": "Availability",
+    "in_stock": "In Stock Only",
+    "wholesale": "Wholesale Available",
+    "sort": "Sort By",
+    "sort_relevance": "Relevance",
+    "sort_price_asc": "Price: Low to High",
+    "sort_price_desc": "Price: High to Low",
+    "sort_newest": "Newest",
+    "sort_popular": "Most Popular",
+    "sort_rating": "Top Rated"
+  },
+  "product": {
+    "add_to_cart": "Add to Cart",
+    "buy_now": "Buy Now",
+    "request_quote": "Request Bulk Quote",
+    "out_of_stock": "Out of Stock",
+    "condition": "Condition",
+    "stock": "Stock",
+    "brand": "Brand",
+    "category": "Category",
+    "sku": "SKU",
+    "wholesale_starting_at": "Wholesale starting at",
+    "related_products": "Related Products",
+    "reviews": "Reviews"
+  },
+  "auth": {
+    "login_title": "Welcome back",
+    "login_btn": "Sign In",
+    "register_title": "Create your account",
+    "register_btn": "Sign Up",
+    "google_btn": "Continue with Google",
+    "email": "Email Address",
+    "password": "Password",
+    "first_name": "First Name",
+    "last_name": "Last Name"
+  }
+}

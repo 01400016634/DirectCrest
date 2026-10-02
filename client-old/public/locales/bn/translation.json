@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "shop": "শপ",
+    "search": "অনুসন্ধান",
+    "cart": "কার্ট",
+    "login": "লগ ইন",
+    "register": "রেজিস্টার",
+    "admin": "অ্যাডমিন"
+  },
+  "home": {
+    "hero_title": "সরাসরি উৎস।",
+    "hero_subtitle": "প্রিমিয়াম পণ্য।",
+    "hero_desc": "পাইকারি এবং খুচরা একত্রীকরণ। সরাসরি উৎস থেকে সেরা ইলেকট্রনিক্স, পোশাক এবং হার্ডওয়্যার আবিষ্কার করুন।",
+    "search_placeholder": "পণ্য, ব্র্যান্ড, বা এসকিউ (SKU) অনুসন্ধান করুন...",
+    "recently_viewed": "সম্প্রতি দেখা",
+    "featured": "ফিচারড কালেকশন",
+    "trending": "বর্তমানে ট্রেন্ডিং",
+    "new_arrivals": "নতুন আগমন"
+  },
+  "shop": {
+    "filters": "ফিল্টার",
+    "clear_all": "সব মুছুন",
+    "price_range": "দামের সীমা",
+    "condition": "অবস্থা",
+    "stock": "উপলব্ধতা",
+    "in_stock": "শুধুমাত্র স্টকে আছে",
+    "wholesale": "পাইকারি উপলব্ধ",
+    "sort": "সাজান",
+    "sort_relevance": "প্রাসঙ্গিকতা",
+    "sort_price_asc": "দাম: কম থেকে বেশি",
+    "sort_price_desc": "দাম: বেশি থেকে কম",
+    "sort_newest": "নতুন",
+    "sort_popular": "সবচেয়ে জনপ্রিয়",
+    "sort_rating": "শীর্ষ রেট"
+  },
+  "product": {
+    "add_to_cart": "কার্টে যোগ করুন",
+    "buy_now": "এখন কিনুন",
+    "request_quote": "বাল্ক উদ্ধৃতি অনুরোধ করুন",
+    "out_of_stock": "স্টক শেষ",
+    "condition": "অবস্থা",
+    "stock": "স্টক",
+    "brand": "ব্র্যান্ড",
+    "category": "বিভাগ",
+    "sku": "SKU",
+    "wholesale_starting_at": "পাইকারি শুরু",
+    "related_products": "সম্পর্কিত পণ্য",
+    "reviews": "রিভিউ"
+  },
+  "auth": {
+    "login_title": "স্বাগতম ফিরে আসার জন্য",
+    "login_btn": "সাইন ইন",
+    "register_title": "অ্যাকাউন্ট তৈরি করুন",
+    "register_btn": "সাইন আপ",
+    "google_btn": "Google এর সাথে চালিয়ে যান",
+    "email": "ইমেইল ঠিকানা",
+    "password": "পাসওয়ার্ড",
+    "first_name": "প্রথম নাম",
+    "last_name": "শেষ নাম"
+  }
+}

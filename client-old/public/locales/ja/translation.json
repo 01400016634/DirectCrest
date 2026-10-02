@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "shop": "ショップ",
+    "search": "検索",
+    "cart": "カート",
+    "login": "ログイン",
+    "register": "登録",
+    "admin": "管理"
+  },
+  "home": {
+    "hero_title": "ダイレクトソース。",
+    "hero_subtitle": "プレミアム商品。",
+    "hero_desc": "卸売と小売の卓越性を融合。ソースから直接、最高の電子機器、アパレル、ハードウェアを見つけてください。",
+    "search_placeholder": "製品、ブランド、またはSKUを検索...",
+    "recently_viewed": "最近見た商品",
+    "featured": "注目のコレクション",
+    "trending": "トレンド",
+    "new_arrivals": "新着商品"
+  },
+  "shop": {
+    "filters": "フィルター",
+    "clear_all": "すべてクリア",
+    "price_range": "価格帯",
+    "condition": "状態",
+    "stock": "在庫状況",
+    "in_stock": "在庫ありのみ",
+    "wholesale": "卸売対応",
+    "sort": "並べ替え",
+    "sort_relevance": "関連性",
+    "sort_price_asc": "価格：安い順",
+    "sort_price_desc": "価格：高い順",
+    "sort_newest": "新着順",
+    "sort_popular": "人気順",
+    "sort_rating": "評価順"
+  },
+  "product": {
+    "add_to_cart": "カートに追加",
+    "buy_now": "今すぐ購入",
+    "request_quote": "一括見積もりをリクエスト",
+    "out_of_stock": "在庫切れ",
+    "condition": "状態",
+    "stock": "在庫",
+    "brand": "ブランド",
+    "category": "カテゴリー",
+    "sku": "SKU",
+    "wholesale_starting_at": "卸売開始価格",
+    "related_products": "関連商品",
+    "reviews": "レビュー"
+  },
+  "auth": {
+    "login_title": "お帰りなさい",
+    "login_btn": "サインイン",
+    "register_title": "アカウントを作成",
+    "register_btn": "サインアップ",
+    "google_btn": "Googleで続行",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "first_name": "名",
+    "last_name": "姓"
+  }
+}

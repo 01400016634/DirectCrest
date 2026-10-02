@@ -1,0 +1,849 @@
+[
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 5s",
+    "price": 204,
+    "desc": "Premium Apple iPhone 5s imported. Excellent quality and amazing details.",
+    "file": "iphone_5s.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone XS",
+    "price": 167,
+    "desc": "Premium Apple iPhone XS imported. Excellent quality and amazing details.",
+    "file": "apple_iphone_xs__free.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 12 Pro",
+    "price": 102,
+    "desc": "Premium Apple iPhone 12 Pro imported. Excellent quality and amazing details.",
+    "file": "iphone_12_pro.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 13 Pro Max",
+    "price": 65,
+    "desc": "Premium Apple iPhone 13 Pro Max imported. Excellent quality and amazing details.",
+    "file": "apple_iphone_13_pro_max.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 13 Pro Max - Variant",
+    "price": 25,
+    "desc": "Premium Apple iPhone 13 Pro Max - Variant imported. Excellent quality and amazing details.",
+    "file": "apple_iphone_13_pro_max (1).glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 14 Pro",
+    "price": 170,
+    "desc": "Premium Apple iPhone 14 Pro imported. Excellent quality and amazing details.",
+    "file": "iphone_14_pro.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 14 Pro Max",
+    "price": 178,
+    "desc": "Premium Apple iPhone 14 Pro Max imported. Excellent quality and amazing details.",
+    "file": "iphone_14_pro_max.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 15 Pro Max",
+    "price": 33,
+    "desc": "Premium Apple iPhone 15 Pro Max imported. Excellent quality and amazing details.",
+    "file": "iphone_15_pro_max.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 16",
+    "price": 92,
+    "desc": "Premium Apple iPhone 16 imported. Excellent quality and amazing details.",
+    "file": "iphone_16_base_model.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 16 Pro Max",
+    "price": 206,
+    "desc": "Premium Apple iPhone 16 Pro Max imported. Excellent quality and amazing details.",
+    "file": "iphone_16_pro_max.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 17 - 6.3 inch",
+    "price": 61,
+    "desc": "Premium Apple iPhone 17 - 6.3 inch imported. Excellent quality and amazing details.",
+    "file": "apple_iphone_17_6.3.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 17 Air Concept",
+    "price": 152,
+    "desc": "Premium Apple iPhone 17 Air Concept imported. Excellent quality and amazing details.",
+    "file": "iphone_17_air_concept.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 17 Pro Concept",
+    "price": 35,
+    "desc": "Premium Apple iPhone 17 Pro Concept imported. Excellent quality and amazing details.",
+    "file": "iphone_17_pro.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 17 Pro Concept - Variant",
+    "price": 24,
+    "desc": "Premium Apple iPhone 17 Pro Concept - Variant imported. Excellent quality and amazing details.",
+    "file": "iphone_17_pro (1).glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 17 Pro - 6.3 inch",
+    "price": 77,
+    "desc": "Premium Apple iPhone 17 Pro - 6.3 inch imported. Excellent quality and amazing details.",
+    "file": "apple_iphone_17_pro_6.3.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 17 Pro - 6.3 inch Variant",
+    "price": 142,
+    "desc": "Premium Apple iPhone 17 Pro - 6.3 inch Variant imported. Excellent quality and amazing details.",
+    "file": "apple_iphone_17_pro_6.3 (1).glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 17 Pro Max Concept",
+    "price": 204,
+    "desc": "Premium Apple iPhone 17 Pro Max Concept imported. Excellent quality and amazing details.",
+    "file": "phone_17_pro_max.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone 18 Pro Max Heritage Edition",
+    "price": 219,
+    "desc": "Premium Apple iPhone 18 Pro Max Heritage Edition imported. Excellent quality and amazing details.",
+    "file": "apple_iphone_18_pro_max_burgundy_2026.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone Duo Concept",
+    "price": 37,
+    "desc": "Premium Apple iPhone Duo Concept imported. Excellent quality and amazing details.",
+    "file": "apple_iphone_duo.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone Duo Concept - Variant",
+    "price": 192,
+    "desc": "Premium Apple iPhone Duo Concept - Variant imported. Excellent quality and amazing details.",
+    "file": "apple_iphone_duo (1).glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPhone Duo Fold Animated",
+    "price": 97,
+    "desc": "Premium Apple iPhone Duo Fold Animated imported. Excellent quality and amazing details.",
+    "file": "apple_iphone_duo_fold_star_white_2026_animated.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Apple iPad Pro",
+    "price": 77,
+    "desc": "Premium Apple iPad Pro imported. Excellent quality and amazing details.",
+    "file": "apple_ipad_pro.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Samsung Galaxy S21 Ultra",
+    "price": 179,
+    "desc": "Premium Samsung Galaxy S21 Ultra imported. Excellent quality and amazing details.",
+    "file": "samsung_galaxy_s21_ultra.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Samsung Galaxy S22 Ultra",
+    "price": 39,
+    "desc": "Premium Samsung Galaxy S22 Ultra imported. Excellent quality and amazing details.",
+    "file": "samsung_galaxy_s22_ultra.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Samsung Galaxy S24 Ultra",
+    "price": 102,
+    "desc": "Premium Samsung Galaxy S24 Ultra imported. Excellent quality and amazing details.",
+    "file": "samsung_s24_ultra.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Samsung Galaxy S25 Ultra Concept",
+    "price": 105,
+    "desc": "Premium Samsung Galaxy S25 Ultra Concept imported. Excellent quality and amazing details.",
+    "file": "samsung_galaxy_s25_ultra.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Samsung Galaxy S25 Ultra Concept - Variant",
+    "price": 72,
+    "desc": "Premium Samsung Galaxy S25 Ultra Concept - Variant imported. Excellent quality and amazing details.",
+    "file": "samsung_galaxy_s25_ultra (1).glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Samsung Galaxy S26 Ultra Concept",
+    "price": 168,
+    "desc": "Premium Samsung Galaxy S26 Ultra Concept imported. Excellent quality and amazing details.",
+    "file": "samsung_s_26_ultra_3d_model.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Samsung Galaxy Z Flip 3",
+    "price": 193,
+    "desc": "Premium Samsung Galaxy Z Flip 3 imported. Excellent quality and amazing details.",
+    "file": "samsung_galaxy_z_flip_3.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Samsung Galaxy Z Fold 7 Concept",
+    "price": 820,
+    "desc": "The future of folding phones.",
+    "file": "samsung_galaxy_z_fold_7.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "OnePlus 13S Concept",
+    "price": 28,
+    "desc": "Premium OnePlus 13S Concept imported. Excellent quality and amazing details.",
+    "file": "one_plus_13s_3d_model.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Realme 12 5G",
+    "price": 181,
+    "desc": "Premium Realme 12 5G imported. Excellent quality and amazing details.",
+    "file": "realme_12_5g.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Nothing Phone",
+    "price": 197,
+    "desc": "Premium Nothing Phone imported. Excellent quality and amazing details.",
+    "file": "nothing_4a_3d_model.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Vivo X80 Pro",
+    "price": 158,
+    "desc": "Premium Vivo X80 Pro imported. Excellent quality and amazing details.",
+    "file": "vivo_x80without_extra_textures.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Vivo X200 Pro",
+    "price": 97,
+    "desc": "Premium Vivo X200 Pro imported. Excellent quality and amazing details.",
+    "file": "vivo_x200_pro_blue.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Vivo X300 Ultra",
+    "price": 156,
+    "desc": "Premium Vivo X300 Ultra imported. Excellent quality and amazing details.",
+    "file": "vivo_x300_ultra_black.glb"
+  },
+  {
+    "category": "Smartphones & Tablets",
+    "name": "Vivo X300 Ultra - Green",
+    "price": 63,
+    "desc": "Premium Vivo X300 Ultra - Green imported. Excellent quality and amazing details.",
+    "file": "vivo_x300_ultra_green.glb"
+  },
+  {
+    "category": "Laptops, Wearables & Audio",
+    "name": "Apple MacBook Pro 2021",
+    "price": 189,
+    "desc": "Premium Apple MacBook Pro 2021 imported. Excellent quality and amazing details.",
+    "file": "macbook_pro_2021.glb"
+  },
+  {
+    "category": "Laptops, Wearables & Audio",
+    "name": "Apple MacBook Pro 16-inch M3 2024",
+    "price": 174,
+    "desc": "Premium Apple MacBook Pro 16-inch M3 2024 imported. Excellent quality and amazing details.",
+    "file": "macbook_pro_m3_16_inch_2024.glb"
+  },
+  {
+    "category": "Laptops, Wearables & Audio",
+    "name": "Apple MacBook Pro 14-inch M5 Concept",
+    "price": 790,
+    "desc": "Concept MacBook Pro 14-inch featuring the next-generation M5 chip. Unprecedented performance, stunning Liquid Retina XDR display, and all-day battery life.",
+    "file": "macbook_pro_14-inch_m5.glb"
+  },
+  {
+    "category": "Laptops, Wearables & Audio",
+    "name": "HP Pavilion x360 Laptop",
+    "price": 1800,
+    "desc": "14-inch business notebook",
+    "file": "laptop_hp_pavilion_x360.glb"
+  },
+  {
+    "category": "Laptops, Wearables & Audio",
+    "name": "Apple AirPods Pro",
+    "price": 96,
+    "desc": "Premium Apple AirPods Pro imported. Excellent quality and amazing details.",
+    "file": "airpods_pro.glb"
+  },
+  {
+    "category": "Laptops, Wearables & Audio",
+    "name": "Apple Watch Series 7",
+    "price": 93,
+    "desc": "Premium Apple Watch Series 7 imported. Excellent quality and amazing details.",
+    "file": "apple_watch_series_7_-_free_watch-face_sdctm.glb"
+  },
+  {
+    "category": "Laptops, Wearables & Audio",
+    "name": "Apple Watch Ultra 2",
+    "price": 114,
+    "desc": "Premium Apple Watch Ultra 2 imported. Excellent quality and amazing details.",
+    "file": "apple_watch_ultra_2.glb"
+  },
+  {
+    "category": "Laptops, Wearables & Audio",
+    "name": "Samsung Galaxy Watch 7",
+    "price": 168,
+    "desc": "Premium Samsung Galaxy Watch 7 imported. Excellent quality and amazing details.",
+    "file": "samsung_galaxy_watch_7.glb"
+  },
+  {
+    "category": "Laptops, Wearables & Audio",
+    "name": "Amazon Echo Dot 3rd Gen",
+    "price": 46,
+    "desc": "Premium Amazon Echo Dot 3rd Gen imported. Excellent quality and amazing details.",
+    "file": "alexa_echo_dot_3.glb"
+  },
+  {
+    "category": "Laptops, Wearables & Audio",
+    "name": "JBL Charge 3 Portable Speaker",
+    "price": 134,
+    "desc": "Premium JBL Charge 3 Portable Speaker imported. Excellent quality and amazing details.",
+    "file": "jbl_charge_3_speaker.glb"
+  },
+  {
+    "category": "Laptops, Wearables & Audio",
+    "name": "JBL PartyBox 110 Speaker",
+    "price": 116,
+    "desc": "Premium JBL PartyBox 110 Speaker imported. Excellent quality and amazing details.",
+    "file": "jbl_partybox_110.glb"
+  },
+  {
+    "category": "Laptops, Wearables & Audio",
+    "name": "JBL T450 Wired Headphones",
+    "price": 81,
+    "desc": "Premium JBL T450 Wired Headphones imported. Excellent quality and amazing details.",
+    "file": "jbl_t450.glb"
+  },
+  {
+    "category": "Laptops, Wearables & Audio",
+    "name": "JBL Tune 720BT Wireless Headphones",
+    "price": 193,
+    "desc": "Premium JBL Tune 720BT Wireless Headphones imported. Excellent quality and amazing details.",
+    "file": "jbl_tune_720bt.glb"
+  },
+  {
+    "category": "Laptops, Wearables & Audio",
+    "name": "JBL Tour One M2 Headphones",
+    "price": 121,
+    "desc": "Premium JBL Tour One M2 Headphones imported. Excellent quality and amazing details.",
+    "file": "jbl_tour_one_m2.glb"
+  },
+  {
+    "category": "Laptops, Wearables & Audio",
+    "name": "JBL Tour Pro 2 TWS Earbuds",
+    "price": 131,
+    "desc": "Premium JBL Tour Pro 2 TWS Earbuds imported. Excellent quality and amazing details.",
+    "file": "jbl_tour_pro_2.glb"
+  },
+  {
+    "category": "Laptops, Wearables & Audio",
+    "name": "JBL RGB Gaming Headphones",
+    "price": 158,
+    "desc": "Premium JBL RGB Gaming Headphones imported. Excellent quality and amazing details.",
+    "file": "jbl_headphone_changeable_colour.glb"
+  },
+  {
+    "category": "Cameras & Power Banks",
+    "name": "GoPro Hero 11 Black Mini",
+    "price": 110,
+    "desc": "Premium GoPro Hero 11 Black Mini imported. Excellent quality and amazing details.",
+    "file": "gopro_hero_11_mini.glb"
+  },
+  {
+    "category": "Cameras & Power Banks",
+    "name": "GoPro Hero 13 Black",
+    "price": 201,
+    "desc": "Premium GoPro Hero 13 Black imported. Excellent quality and amazing details.",
+    "file": "gopro_hero_13_black.glb"
+  },
+  {
+    "category": "Cameras & Power Banks",
+    "name": "Insta360 ONE X2 Action Camera",
+    "price": 350,
+    "desc": "4K sports video camera",
+    "file": "insta360_one_x2_sports_and_action_camera.glb"
+  },
+  {
+    "category": "Cameras & Power Banks",
+    "name": "50,000mAh Heavy Duty Power Bank",
+    "price": 45,
+    "desc": "10000mAh portable charger",
+    "file": "fc50_power_bank.glb"
+  },
+  {
+    "category": "Toys, RC & Die-Cast Vehicles",
+    "name": "Chevrolet Corvette C6.R 1:18 Toy Car",
+    "price": 41,
+    "desc": "Premium Chevrolet Corvette C6.R 1:18 Toy Car imported. Excellent quality and amazing details.",
+    "file": "2010_chevrolet_corvette_c6.r.glb"
+  },
+  {
+    "category": "Toys, RC & Die-Cast Vehicles",
+    "name": "McLaren 650S GT3 1:24 Toy Car",
+    "price": 174,
+    "desc": "Premium McLaren 650S GT3 1:24 Toy Car imported. Excellent quality and amazing details.",
+    "file": "2015_mclaren_650s_gt3.glb"
+  },
+  {
+    "category": "Toys, RC & Die-Cast Vehicles",
+    "name": "McLaren 720S GT3 1:18 Toy Car",
+    "price": 208,
+    "desc": "Premium McLaren 720S GT3 1:18 Toy Car imported. Excellent quality and amazing details.",
+    "file": "2020_mclaren_720s_gt3.glb"
+  },
+  {
+    "category": "Toys, RC & Die-Cast Vehicles",
+    "name": "Porsche 992 GT3 R 1:18 Toy Car",
+    "price": 160,
+    "desc": "Premium Porsche 992 GT3 R 1:18 Toy Car imported. Excellent quality and amazing details.",
+    "file": "2024_porsche_992_gt3_r.glb"
+  },
+  {
+    "category": "Toys, RC & Die-Cast Vehicles",
+    "name": "BMW M3 GTR GT2 Toy Car",
+    "price": 184,
+    "desc": "Premium BMW M3 GTR GT2 Toy Car imported. Excellent quality and amazing details.",
+    "file": "bmw_m3_gtr_gt2.glb"
+  },
+  {
+    "category": "Toys, RC & Die-Cast Vehicles",
+    "name": "BMW M6 GT3 Toy Car",
+    "price": 151,
+    "desc": "Premium BMW M6 GT3 Toy Car imported. Excellent quality and amazing details.",
+    "file": "bmw_m6_gt3.glb"
+  },
+  {
+    "category": "Toys, RC & Die-Cast Vehicles",
+    "name": "1963 Chevrolet C10 Vintage Pickup Toy",
+    "price": 70,
+    "desc": "Premium 1963 Chevrolet C10 Vintage Pickup Toy imported. Excellent quality and amazing details.",
+    "file": "low_poly_car_-_chevrolet_c10_pickup_1963.glb"
+  },
+  {
+    "category": "Toys, RC & Die-Cast Vehicles",
+    "name": "MD 500 Military RC Helicopter",
+    "price": 189,
+    "desc": "Premium MD 500 Military RC Helicopter imported. Excellent quality and amazing details.",
+    "file": "md_500.glb"
+  },
+  {
+    "category": "Toys, RC & Die-Cast Vehicles",
+    "name": "Neon Chrome Sci-Fi Toy Tank",
+    "price": 171,
+    "desc": "Premium Neon Chrome Sci-Fi Toy Tank imported. Excellent quality and amazing details.",
+    "file": "neon_chrome_-_tank.glb"
+  },
+  {
+    "category": "Toys, RC & Die-Cast Vehicles",
+    "name": "Transformers Optimus Prime Action Figure",
+    "price": 37,
+    "desc": "Premium Transformers Optimus Prime Action Figure imported. Excellent quality and amazing details.",
+    "file": "earth_wars_86_battle_damaged_optimus_prime.glb"
+  },
+  {
+    "category": "Toys, RC & Die-Cast Vehicles",
+    "name": "Elena of Avalor Princess Crown Toy",
+    "price": 108,
+    "desc": "Premium Elena of Avalor Princess Crown Toy imported. Excellent quality and amazing details.",
+    "file": "elena_of_avalor_-_crown.glb"
+  },
+  {
+    "category": "Toys, RC & Die-Cast Vehicles",
+    "name": "Arcadia Wooden Longboard",
+    "price": 134,
+    "desc": "Premium Arcadia Wooden Longboard imported. Excellent quality and amazing details.",
+    "file": "arcadia_longboard.glb"
+  },
+  {
+    "category": "Toys, RC & Die-Cast Vehicles",
+    "name": "OneWheel Pint Electric Board",
+    "price": 64,
+    "desc": "Premium OneWheel Pint Electric Board imported. Excellent quality and amazing details.",
+    "file": "onewheel_pint.glb"
+  },
+  {
+    "category": "Footwear",
+    "name": "Nike Air Jordan 1 Sneakers",
+    "price": 132,
+    "desc": "Premium Nike Air Jordan 1 Sneakers imported. Excellent quality and amazing details.",
+    "file": "air_jordan_1.glb"
+  },
+  {
+    "category": "Footwear",
+    "name": "Nike Air Zoom Pegasus 36 Shoes",
+    "price": 11.5,
+    "desc": "Nike Air Zoom Pegasus 36 running shoes. Engineered mesh upper for breathability, slim collar, and Zoom Air cushioning for a responsive ride.",
+    "file": "nike_air_zoom_pegasus_36.glb"
+  },
+  {
+    "category": "Footwear",
+    "name": "Converse All-Star High-Top Sneakers",
+    "price": 197,
+    "desc": "Premium Converse All-Star High-Top Sneakers imported. Excellent quality and amazing details.",
+    "file": "converse__free.glb"
+  },
+  {
+    "category": "Footwear",
+    "name": "Vans Old Skool Sneakers",
+    "price": 87,
+    "desc": "Premium Vans Old Skool Sneakers imported. Excellent quality and amazing details.",
+    "file": "unused_blue_vans_shoe.glb"
+  },
+  {
+    "category": "Footwear",
+    "name": "RTFKT Cyberpunk LED Sneakers",
+    "price": 26,
+    "desc": "Futuristic Cyberpunk LED sneakers by RTFKT. Features dynamic programmable LED strips, chunky bold silhouette, and next-gen cushioning technology.",
+    "file": "rtfkt_cyberpunk.glb"
+  },
+  {
+    "category": "Footwear",
+    "name": "Women's Classic High Heel Pumps",
+    "price": 38,
+    "desc": "Premium Women's Classic High Heel Pumps imported. Excellent quality and amazing details.",
+    "file": "classic_high_heel_pumps.glb"
+  },
+  {
+    "category": "Footwear",
+    "name": "Men's Leather Oxford Dress Shoe",
+    "price": 54,
+    "desc": "Premium Men's Leather Oxford Dress Shoe imported. Excellent quality and amazing details.",
+    "file": "dress_shoe_left.glb"
+  },
+  {
+    "category": "Apparel & Fashion",
+    "name": "Men's Classic Polo Shirt",
+    "price": 45,
+    "desc": "Pique knit collared tee",
+    "file": "polo_shirt.glb"
+  },
+  {
+    "category": "Apparel & Fashion",
+    "name": "Oversized Graphic T-Shirt - Black",
+    "price": 215,
+    "desc": "Premium Oversized Graphic T-Shirt - Black imported. Excellent quality and amazing details.",
+    "file": "tshirt.glb"
+  },
+  {
+    "category": "Apparel & Fashion",
+    "name": "Oversized Graphic T-Shirt - White",
+    "price": 126,
+    "desc": "Premium Oversized Graphic T-Shirt - White imported. Excellent quality and amazing details.",
+    "file": "tshirt (1).glb"
+  },
+  {
+    "category": "Apparel & Fashion",
+    "name": "Black Flame Streetwear Hoodie",
+    "price": 65,
+    "desc": "Fleece pullover sweatshirt",
+    "file": "classic_black_flame_hoodie.glb"
+  },
+  {
+    "category": "Apparel & Fashion",
+    "name": "Two-Tone Varsity Hoodie",
+    "price": 65,
+    "desc": "Fleece pullover sweatshirt",
+    "file": "green_and_white_hoodie.glb"
+  },
+  {
+    "category": "Apparel & Fashion",
+    "name": "Tommy Hilfiger Puffer Jacket",
+    "price": 133,
+    "desc": "Premium Tommy Hilfiger Puffer Jacket imported. Excellent quality and amazing details.",
+    "file": "tommy_hilfiger_jacket.glb"
+  },
+  {
+    "category": "Apparel & Fashion",
+    "name": "Women's Ribbed Crop Top & Skirt",
+    "price": 95,
+    "desc": "Premium Women's Ribbed Crop Top & Skirt imported. Excellent quality and amazing details.",
+    "file": "casual_clothes_crop_top_and_skirt.glb"
+  },
+  {
+    "category": "Apparel & Fashion",
+    "name": "Women's Belted Long Overcoat",
+    "price": 216,
+    "desc": "Premium Women's Belted Long Overcoat imported. Excellent quality and amazing details.",
+    "file": "female_overcoat.glb"
+  },
+  {
+    "category": "Apparel & Fashion",
+    "name": "Pokemon Masters Snapback Cap",
+    "price": 155,
+    "desc": "Premium Pokemon Masters Snapback Cap imported. Excellent quality and amazing details.",
+    "file": "pokemon_masters_cap.glb"
+  },
+  {
+    "category": "Apparel & Fashion",
+    "name": "Pokemon Masters Snapback Cap - Variant",
+    "price": 156,
+    "desc": "Premium Pokemon Masters Snapback Cap - Variant imported. Excellent quality and amazing details.",
+    "file": "pokemon_masters_cap (1).glb"
+  },
+  {
+    "category": "Apparel & Fashion",
+    "name": "Vintage Washed Dad Hat",
+    "price": 111,
+    "desc": "Premium Vintage Washed Dad Hat imported. Excellent quality and amazing details.",
+    "file": "hat_01__.rawscan..glb"
+  },
+  {
+    "category": "Apparel & Fashion",
+    "name": "Vintage Washed Dad Hat - Variant",
+    "price": 209,
+    "desc": "Premium Vintage Washed Dad Hat - Variant imported. Excellent quality and amazing details.",
+    "file": "hat_01__.rawscan (1).glb"
+  },
+  {
+    "category": "Apparel & Fashion",
+    "name": "Tactical Half-Finger Combat Gloves",
+    "price": 122,
+    "desc": "Premium Tactical Half-Finger Combat Gloves imported. Excellent quality and amazing details.",
+    "file": "military_gloves_half-finger_of_color_black_17.glb"
+  },
+  {
+    "category": "Bags & Backpacks",
+    "name": "Commuter Laptop Backpack",
+    "price": 1800,
+    "desc": "14-inch business notebook",
+    "file": "backpack.glb"
+  },
+  {
+    "category": "Bags & Backpacks",
+    "name": "Commuter Laptop Backpack - Variant",
+    "price": 1800,
+    "desc": "14-inch business notebook",
+    "file": "backpack (1).glb"
+  },
+  {
+    "category": "Bags & Backpacks",
+    "name": "Vintage Canvas Trekking Backpack",
+    "price": 85,
+    "desc": "Nylon waterproof school bag",
+    "file": "old_backpack__renewed_hope.glb"
+  },
+  {
+    "category": "Bags & Backpacks",
+    "name": "Tactical Military Duffel Bag",
+    "price": 46,
+    "desc": "Premium Tactical Military Duffel Bag imported. Excellent quality and amazing details.",
+    "file": "military_duffel_bag.glb"
+  },
+  {
+    "category": "Bags & Backpacks",
+    "name": "Minimalist Travel Shoulder Bag",
+    "price": 4.8,
+    "desc": "Ultra-lightweight minimalist travel shoulder bag by Groove. Designed for essentials, featuring quick-access pockets and an adjustable cross-body strap.",
+    "file": "groove_bags.glb"
+  },
+  {
+    "category": "Bags & Backpacks",
+    "name": "Women's Quilted Leather Handbag",
+    "price": 120,
+    "desc": "PU leather women's tote",
+    "file": "female_bag.glb"
+  },
+  {
+    "category": "Jewelry & Accessories",
+    "name": "Freshwater Pearl Necklace",
+    "price": 106,
+    "desc": "Premium Freshwater Pearl Necklace imported. Excellent quality and amazing details.",
+    "file": "pearl_necklace.glb"
+  },
+  {
+    "category": "Jewelry & Accessories",
+    "name": "Solitaire Gemstone Ring",
+    "price": 91,
+    "desc": "Premium Solitaire Gemstone Ring imported. Excellent quality and amazing details.",
+    "file": "gem_ring2.glb"
+  },
+  {
+    "category": "Jewelry & Accessories",
+    "name": "Raw Crystal Pendant Necklace",
+    "price": 170,
+    "desc": "Premium Raw Crystal Pendant Necklace imported. Excellent quality and amazing details.",
+    "file": "gemstone_necklace.glb"
+  },
+  {
+    "category": "Jewelry & Accessories",
+    "name": "Jade Donut Pendant Necklace",
+    "price": 72,
+    "desc": "Premium Jade Donut Pendant Necklace imported. Excellent quality and amazing details.",
+    "file": "donut_necklace.glb"
+  },
+  {
+    "category": "Jewelry & Accessories",
+    "name": "Jashin Symbol Anime Necklace",
+    "price": 97,
+    "desc": "Premium Jashin Symbol Anime Necklace imported. Excellent quality and amazing details.",
+    "file": "jashin_necklace.glb"
+  },
+  {
+    "category": "Jewelry & Accessories",
+    "name": "Jashin Symbol Anime Necklace - Variant",
+    "price": 53,
+    "desc": "Premium Jashin Symbol Anime Necklace - Variant imported. Excellent quality and amazing details.",
+    "file": "jashin_necklace (1).glb"
+  },
+  {
+    "category": "Jewelry & Accessories",
+    "name": "Minimalist Fine Cable Chain",
+    "price": 195,
+    "desc": "Premium Minimalist Fine Cable Chain imported. Excellent quality and amazing details.",
+    "file": "necklace.glb"
+  },
+  {
+    "category": "Jewelry & Accessories",
+    "name": "Curb Cuban Link Chain",
+    "price": 161,
+    "desc": "Premium Curb Cuban Link Chain imported. Excellent quality and amazing details.",
+    "file": "necklace_c.glb"
+  },
+  {
+    "category": "Jewelry & Accessories",
+    "name": "Classic Aviator Sunglasses",
+    "price": 35,
+    "desc": "Polarized UV400 eyewear",
+    "file": "aviator_sunglasses.glb"
+  },
+  {
+    "category": "Jewelry & Accessories",
+    "name": "Blue Light Blocking Optical Glasses",
+    "price": 41,
+    "desc": "Premium Blue Light Blocking Optical Glasses imported. Excellent quality and amazing details.",
+    "file": "glasses.glb"
+  },
+  {
+    "category": "Jewelry & Accessories",
+    "name": "Tactical Serrated Combat Knife",
+    "price": 50,
+    "desc": "Premium Tactical Serrated Combat Knife imported. Excellent quality and amazing details.",
+    "file": "cod4_tactical_knife-reimagined_game_ready.glb"
+  },
+  {
+    "category": "Jewelry & Accessories",
+    "name": "iPhone 13 Pro Silicone Case",
+    "price": 138,
+    "desc": "Premium iPhone 13 Pro Silicone Case imported. Excellent quality and amazing details.",
+    "file": "iphone13_pro_basic_case.glb"
+  },
+  {
+    "category": "Medical & Laboratory Equipment",
+    "name": "Clinical Anesthesia Workstation",
+    "price": 650,
+    "desc": "Advanced clinical anesthesia workstation with integrated ventilator, precision vaporizers, and comprehensive patient monitoring capabilities. Ensures maximum patient safety.",
+    "file": "anesthesia_machine.glb"
+  },
+  {
+    "category": "Medical & Laboratory Equipment",
+    "name": "ICU Electric Hospital Bed Unit",
+    "price": 1200,
+    "desc": "Manual 2-crank patient bed",
+    "file": "medical_bed_unit.glb"
+  },
+  {
+    "category": "Medical & Laboratory Equipment",
+    "name": "Vitacore-X Patient Monitor",
+    "price": 3500,
+    "desc": "Multi-parameter vital signs ICU",
+    "file": "vitacore-x_-_medical_equipment.glb"
+  },
+  {
+    "category": "Medical & Laboratory Equipment",
+    "name": "Sterile Medical Syringe",
+    "price": 157,
+    "desc": "Premium Sterile Medical Syringe imported. Excellent quality and amazing details.",
+    "file": "medical_syringe.glb"
+  },
+  {
+    "category": "Medical & Laboratory Equipment",
+    "name": "3-Ply Disposable Face Masks 50-Pack",
+    "price": 73,
+    "desc": "Premium 3-Ply Disposable Face Masks 50-Pack imported. Excellent quality and amazing details.",
+    "file": "face_masks.glb"
+  },
+  {
+    "category": "Home, Office & Cosmetics",
+    "name": "Solid Wood Kung-Fu Tea Table",
+    "price": 38,
+    "desc": "Traditional solid wood Kung-Fu tea table. Features exquisite craftsmanship, natural wood grain finish, and built-in drainage system for an authentic tea ceremony experience.",
+    "file": "chinese_style_tea_table.glb"
+  },
+  {
+    "category": "Home, Office & Cosmetics",
+    "name": "Modular L-Shaped Sectional Sofa",
+    "price": 120,
+    "desc": "A luxurious and modern modular L-shaped sectional sofa. Designed for maximum comfort with premium fabric upholstery and a sturdy frame. Perfect for contemporary living spaces.",
+    "file": "sofa_combination.glb"
+  },
+  {
+    "category": "Home, Office & Cosmetics",
+    "name": "Nordic Desk Lamp",
+    "price": 99,
+    "desc": "Premium Nordic Desk Lamp imported. Excellent quality and amazing details.",
+    "file": "lamp.glb"
+  },
+  {
+    "category": "Home, Office & Cosmetics",
+    "name": "Low-Poly Bedside Table Lamp",
+    "price": 50,
+    "desc": "Premium Low-Poly Bedside Table Lamp imported. Excellent quality and amazing details.",
+    "file": "tabel_lapm_-_lowpoly.glb"
+  },
+  {
+    "category": "Home, Office & Cosmetics",
+    "name": "Ergonomic Mesh Office Chair",
+    "price": 83,
+    "desc": "Premium Ergonomic Mesh Office Chair imported. Excellent quality and amazing details.",
+    "file": "office_chair.glb"
+  },
+  {
+    "category": "Home, Office & Cosmetics",
+    "name": "Smart Biometric Digital Door Lock",
+    "price": 198,
+    "desc": "Premium Smart Biometric Digital Door Lock imported. Excellent quality and amazing details.",
+    "file": "lock_digital_door_computer.glb"
+  },
+  {
+    "category": "Home, Office & Cosmetics",
+    "name": "Amber Glass Serum Dropper Bottle",
+    "price": 118,
+    "desc": "Premium Amber Glass Serum Dropper Bottle imported. Excellent quality and amazing details.",
+    "file": "cosmetic_product.glb"
+  },
+  {
+    "category": "Home, Office & Cosmetics",
+    "name": "Matte Cosmetic Squeeze Tube",
+    "price": 162,
+    "desc": "Premium Matte Cosmetic Squeeze Tube imported. Excellent quality and amazing details.",
+    "file": "cosmetic_tube.glb"
+  }
+]

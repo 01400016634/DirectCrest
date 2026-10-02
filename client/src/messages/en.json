@@ -1,0 +1,30 @@
+{
+  "Header": {
+    "products": "Products",
+    "categories": "Categories",
+    "chinaSourcing": "China Sourcing",
+    "shoppingCart": "Shopping Cart"
+  },
+  "Cart": {
+    "empty": "Your cart is currently empty.",
+    "continueShopping": "Continue Shopping",
+    "subtotal": "Subtotal",
+    "shippingAndTaxes": "Shipping and taxes calculated at checkout.",
+    "checkout": "Checkout"
+  },
+  "Checkout": {
+    "shipping": "Shipping",
+    "billing": "Billing",
+    "review": "Review",
+    "orderSummary": "Order Summary",
+    "subtotal": "Subtotal",
+    "shippingCost": "Shipping",
+    "taxes": "Taxes",
+    "calculatedAtCheckout": "Calculated at checkout",
+    "promoCode": "Promo code",
+    "apply": "Apply",
+    "discount": "Discount",
+    "total": "Total",
+    "back": "Back"
+  }
+}

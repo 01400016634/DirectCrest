@@ -1,0 +1,30 @@
+{
+  "Header": {
+    "products": "产品",
+    "categories": "分类",
+    "chinaSourcing": "中国采购",
+    "shoppingCart": "购物车"
+  },
+  "Cart": {
+    "empty": "您的购物车目前是空的。",
+    "continueShopping": "继续购物",
+    "subtotal": "小计",
+    "shippingAndTaxes": "运费和税费在结账时计算。",
+    "checkout": "结账"
+  },
+  "Checkout": {
+    "shipping": "运输",
+    "billing": "账单",
+    "review": "审查",
+    "orderSummary": "订单摘要",
+    "subtotal": "小计",
+    "shippingCost": "运费",
+    "taxes": "税费",
+    "calculatedAtCheckout": "在结账时计算",
+    "promoCode": "促销代码",
+    "apply": "应用",
+    "discount": "折扣",
+    "total": "总计",
+    "back": "返回"
+  }
+}

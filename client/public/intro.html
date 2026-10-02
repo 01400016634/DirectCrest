@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!--
+  DirectCrest – 3D INTRO ONLY (airliner laps the Earth once, then flies to China).
+  When the animation ends the screen fades to navy and this hook fires:
+
+      window.addEventListener('intro:complete', () => { /* open your homepage */ });
+      // or define it before this script runs:
+      window.onIntroComplete = () => { location.href = '/home'; };
+
+  Tweak: FLIGHT (seconds, in the script), the start point ll(14,-30) and heading .45 in simulate(),
+  the target C (Shanghai) and the HUD texts in intro().
+-->
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DirectCrest – 3D Intro</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0a1628;--ocean:#10294a;--steel:#8a97a6;--frost:#eef3f9;--mist:#9fb0c3;--sand:#eae3d7;--cu:#d9963b;--bd:rgba(238,243,249,.16);color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--navy);color:var(--frost);font-family:Inter,system-ui,sans-serif;overflow:hidden}
+#cv{position:fixed;inset:0;width:100%;height:100%;display:block;z-index:0}
+.mono{font-family:"JetBrains Mono",ui-monospace,monospace}
+h1,h2,h3,.brand{font-family:"Instrument Serif",Georgia,serif;font-weight:400;margin:0}
+#ld{position:fixed;inset:0;z-index:12;background:var(--navy);display:grid;place-items:center;text-align:center;transition:opacity .8s}
+#ld i{display:block;width:42px;height:42px;margin:0 auto 18px;border:2px solid var(--bd);border-top-color:var(--cu);border-radius:50%;animation:sp 1s linear infinite}@keyframes sp{to{transform:rotate(360deg)}}
+#ov{position:fixed;inset:0;background:var(--navy);z-index:9;opacity:0;pointer-events:none;transition:opacity .9s}
+#hud{position:fixed;inset:0;z-index:8;pointer-events:none;padding:calc(env(safe-area-inset-top,0px) + 22px) 26px 28px;display:flex;flex-direction:column;justify-content:space-between;transition:opacity .8s}
+.brand{font-size:28px}.cap{max-width:430px}.cap small{display:block;color:var(--mist);letter-spacing:.16em;font-size:11px}.cap b{font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:clamp(24px,3.6vw,38px);display:block;margin:8px 0 12px}
+.bar{height:2px;background:var(--bd);margin:0 0 10px}.bar i{display:block;height:100%;width:0;background:var(--cu)}
+.b{display:inline-block;padding:13px 24px;border-radius:99px;font:600 14px Inter,sans-serif;text-decoration:none;transition:.3s;border:1px solid var(--bd);color:var(--frost);background:none;cursor:pointer}
+.b.cu{background:var(--cu);color:#0a1628;border-color:var(--cu)}.b.cu:hover{background:#e8a850}.b.ol:hover{border-color:var(--frost)}
+#skip{pointer-events:auto;background:rgba(10,22,40,.5)}
+#done{position:fixed;inset:0;z-index:11;display:none;place-items:center;text-align:center;background:var(--navy)}#done.on{display:grid}#done p{color:var(--mist);margin:12px 0 24px}
+</style></head><body>
+<canvas id="cv"></canvas>
+<div id="ld"><div><i></i><div class="mono" style="letter-spacing:.2em;font-size:12px;color:var(--mist)">PREPARING THE PLANET</div></div></div>
+<div id="ov"></div>
+<div id="hud"><div class="brand">DirectCrest</div>
+<div style="display:flex;justify-content:space-between;align-items:flex-end;gap:20px"><div class="cap"><small class="mono" id="hs"></small><b id="ht">Departing for the horizon</b><div class="bar"><i id="hb"></i></div><small class="mono" id="hp"></small></div><button class="b ol" id="skip">Skip intro</button></div></div>
+
+<div id="done"><div><div class="mono" style="letter-spacing:.2em;font-size:12px;color:var(--cu)">INTRO COMPLETE</div><p>Your homepage loads here.</p><button class="b cu" onclick="location.reload()">Replay intro</button></div></div>
+
+<script>
+window.onIntroComplete = () => { 
+  const returnTo = sessionStorage.getItem('introReturnTo') || '/';
+  const url = new URL(returnTo, window.location.origin);
+  url.searchParams.set('fromIntro', '1');
+  sessionStorage.removeItem('introReturnTo');
+  location.href = url.toString(); 
+};
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function(){
+const $=s=>document.querySelector(s),V3=THREE.Vector3,MU=THREE.MathUtils,R=10;
+const ss=(a,b,x)=>{x=Math.min(1,Math.max(0,(x-a)/(b-a)));return x*x*(3-2*x)},mx=(a,b,t)=>a+(b-a)*t;
+// lat/lon -> sphere point, matching THREE.SphereGeometry's equirectangular UV layout
+const ll=(a,b,r=1)=>{a*=Math.PI/180;b*=Math.PI/180;return new V3(r*Math.cos(a)*Math.cos(b),r*Math.sin(a),-r*Math.cos(a)*Math.sin(b))};
+
+/* ---------- renderer, camera, lights ---------- */
+const ren=new THREE.WebGLRenderer({canvas:$('#cv'),antialias:true});ren.setPixelRatio(Math.min(devicePixelRatio,2));ren.outputEncoding=THREE.sRGBEncoding;ren.toneMapping=THREE.ACESFilmicToneMapping;ren.toneMappingExposure=1.15;ren.setClearColor(0x050b16);
+const sc=new THREE.Scene(),cam=new THREE.PerspectiveCamera(45,1,.05,400),trU={uT:{value:0},uS:{value:600}};
+function rs(){ren.setSize(innerWidth,innerHeight,false);cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix();trU.uS.value=ren.domElement.height/(2*Math.tan(cam.fov*Math.PI/360))}addEventListener('resize',rs);rs();
+const sun=new THREE.DirectionalLight(0xfff0dc,2),amb=new THREE.AmbientLight(0x3a4f73,.5),hemi=new THREE.HemisphereLight(0x8fb4e8,0x101a2a,.4);sc.add(sun,amb,hemi);
+
+/* ---------- procedural Earth (no image downloads allowed, so we paint it) ---------- */
+function h3(x,y,z){let n=Math.imul(x|0,374761393)^Math.imul(y|0,668265263)^Math.imul(z|0,1274126177);n=Math.imul(n^(n>>>13),1274126177);return((n^(n>>>16))>>>0)/4294967295}
+function vn(x,y,z){const xi=Math.floor(x),yi=Math.floor(y),zi=Math.floor(z),xf=x-xi,yf=y-yi,zf=z-zi,u=xf*xf*(3-2*xf),v=yf*yf*(3-2*yf),w=zf*zf*(3-2*zf),a=(dx,dy)=>h3(xi+dx,yi+dy,zi)*(1-w)+h3(xi+dx,yi+dy,zi+1)*w;return(a(0,0)*(1-u)+a(1,0)*u)*(1-v)+(a(0,1)*(1-u)+a(1,1)*u)*v}
+function fbm(x,y,z,o){let s=0,a=.5;for(let i=0;i<o;i++){s+=a*vn(x,y,z);x*=2.03;y*=2.03;z*=2.03;a*=.5}return s/(1-Math.pow(.5,o))}
+const LAND=[[-168,66,-162,70,-141,70,-125,70,-95,72,-82,69,-80,63,-94,60,-93,57,-82,55,-79,52,-78,62,-70,60,-62,57,-56,52,-66,45,-70,42,-76,37,-81,31,-80,26,-82,26,-84,30,-90,29,-97,27,-97,22,-94,18,-88,21,-87,15,-83,10,-78,8,-80,7,-86,11,-92,15,-98,17,-105,20,-110,24,-115,30,-117,33,-122,37,-124,42,-124,48,-130,54,-136,58,-146,61,-152,59,-158,56,-164,55,-158,59,-165,62],
+[-80,8,-72,12,-62,10,-52,5,-50,0,-44,-2,-35,-6,-39,-14,-41,-22,-48,-26,-53,-34,-58,-38,-65,-42,-68,-50,-70,-55,-74,-50,-74,-40,-71,-30,-70,-18,-76,-14,-81,-5,-80,0,-78,5],
+[-10,36,-9,43,-2,43,-1,48,-5,48,2,51,8,54,9,57,12,56,11,59,5,59,5,62,14,67,22,70,30,70,41,67,44,68,60,69,70,73,90,76,110,77,140,73,160,70,180,68,170,62,160,61,156,52,150,59,142,59,137,54,141,48,135,43,130,42,129,35,126,35,126,38,121,40,122,37,119,35,122,31,121,28,117,23,110,21,108,21,106,18,109,12,105,9,100,13,100,8,103,1,98,8,98,16,94,17,91,22,87,21,80,15,78,8,73,16,72,22,67,25,57,25,56,27,50,30,48,29,51,25,56,24,59,22,53,16,43,13,39,21,35,28,34,31,36,36,30,36,27,37,26,40,29,41,41,41,37,45,33,45,30,46,28,43,24,40,20,40,19,42,13,45,17,41,16,38,15,40,12,42,10,44,8,44,3,43,-1,37,-6,36],
+[-17,21,-16,28,-9,32,-6,36,10,37,11,33,20,31,32,31,34,28,38,19,43,12,51,12,48,5,40,-3,39,-10,41,-15,35,-24,33,-29,28,-33,20,-35,18,-32,12,-18,13,-8,9,-1,9,4,4,6,-4,5,-8,4,-13,8,-17,14],
+[114,-22,122,-18,130,-12,137,-12,136,-15,141,-17,142,-11,146,-19,153,-26,151,-34,146,-39,140,-38,135,-34,130,-32,124,-34,115,-34,113,-26],
+[-55,60,-43,60,-22,70,-20,80,-40,83,-60,82,-70,78,-58,70],[-180,-70,180,-70,180,-90,-180,-90],[-5,50,1,51,2,53,-3,56,-5,58,-6,55,-3,54,-5,52],[131,31,135,34,141,36,142,41,141,45,139,43,136,37,132,34],
+[95,5,98,4,106,-3,105,-6,101,-3],[109,1,117,7,119,1,116,-4,110,-3],[105,-6,114,-7,114,-9,106,-8],[131,-1,141,-3,150,-10,141,-9,135,-4],[44,-25,49,-15,50,-13,44,-17],[172,-34,178,-38,175,-41,170,-46,167,-45,173,-40],[-24,65,-14,66,-14,64,-22,63],[-90,73,-70,71,-62,67,-68,62,-78,64,-90,68],[-85,22,-80,23,-74,20,-78,20]];
+let cA,cB,earth,built=false;
+function makeTex(a,w,h,srgb){const c=document.createElement('canvas');c.width=w;c.height=h;c.getContext('2d').putImageData(new ImageData(a,w,h),0,0);const t=new THREE.CanvasTexture(c);t.anisotropy=8;if(srgb)t.encoding=THREE.sRGBEncoding;return t}
+function buildEarth(){
+ const W=1280,H=640,mk=document.createElement('canvas');mk.width=256;mk.height=128;let g=mk.getContext('2d');g.fillStyle='#fff';
+ LAND.forEach(p=>{g.beginPath();for(let i=0;i<p.length;i+=2){const x=(p[i]+180)/360*256,y=(90-p[i+1])/180*128;i?g.lineTo(x,y):g.moveTo(x,y)}g.closePath();g.fill()});
+ const m2=document.createElement('canvas');m2.width=W;m2.height=H;g=m2.getContext('2d');g.imageSmoothingEnabled=true;g.imageSmoothingQuality='high';g.drawImage(mk,0,0,W,H);const md=g.getImageData(0,0,W,H).data;
+ const col=new Uint8ClampedArray(W*H*4),spc=new Uint8ClampedArray(W*H*4),bmp=new Uint8ClampedArray(W*H*4);
+ for(let j=0;j<H;j++){const la=90-(j+.5)/H*180,rl=la*Math.PI/180,cl=Math.cos(rl),sl=Math.sin(rl),al=Math.abs(la);
+  for(let i=0;i<W;i++){const lo=((i+.5)/W*360-180)*Math.PI/180,x=cl*Math.cos(lo),y=sl,z=-cl*Math.sin(lo),k=(j*W+i)*4,v=md[k]/255+(fbm(x*5+9,y*5,z*5,4)-.5)*.85,tn=(vn(x*40,y*40,z*40)-.5)*20;let r,gg,b,s=0,e=0;
+   if(v>.5){e=Math.min(1,(v-.5)*2+vn(x*14,y*14,z*14)*.4);const mo=fbm(x*2.3+3,y*2.3+7,z*2.3,3),ds=Math.exp(-Math.pow((al-24)/11,2))*Math.max(0,mo*1.8-.4),gr=ss(.3,.62,mo);
+    r=mx(mx(98,52,gr),196,ds);gg=mx(mx(130,90,gr),164,ds);b=mx(mx(72,54,gr),108,ds);const rk=ss(.45,.9,e);r=mx(r,124,rk);gg=mx(gg,114,rk);b=mx(b,100,rk);
+    const sn=Math.max(ss(60,72,al+vn(x*9,y*9,z*9)*10),ss(.8,1,e)*ss(18,40,al));r=mx(r,238,sn);gg=mx(gg,242,sn);b=mx(b,246,sn);s=30}
+   else{const d=ss(.5,.12,v),ice=ss(70,80,al+vn(x*20,y*20,z*20)*8);r=mx(mx(40,9,d),226,ice);gg=mx(mx(112,38,d),236,ice);b=mx(mx(150,74,d),244,ice);s=255*(1-ice)}
+   col[k]=r+tn;col[k+1]=gg+tn;col[k+2]=b+tn;col[k+3]=255;spc[k]=spc[k+1]=spc[k+2]=s;spc[k+3]=255;bmp[k]=bmp[k+1]=bmp[k+2]=e*255;bmp[k+3]=255}}
+ earth=new THREE.Mesh(new THREE.SphereGeometry(R,128,96),new THREE.MeshPhongMaterial({map:makeTex(col,W,H,true),bumpMap:makeTex(bmp,W,H),bumpScale:1.5,specularMap:makeTex(spc,W,H),specular:new THREE.Color(0x446688),shininess:30}));sc.add(earth);
+ // two cloud decks: dense low layer + wispy high layer
+ const CW=768,CH=384,ca=new Uint8ClampedArray(CW*CH*4),cb=new Uint8ClampedArray(CW*CH*4);
+ for(let j=0;j<CH;j++){const rl=(90-(j+.5)/CH*180)*Math.PI/180,cl=Math.cos(rl),sl=Math.sin(rl);for(let i=0;i<CW;i++){const lo=((i+.5)/CW*360-180)*Math.PI/180,x=cl*Math.cos(lo),y=sl,z=-cl*Math.sin(lo),k=(j*CW+i)*4,wx=vn(x*3,y*3,z*3)*.6,
+  a=ss(.5,.72,fbm(x*2.6+wx,y*3+wx,z*2.6,4))*255,b=ss(.56,.8,fbm(x*1.3,y*6,z*1.3+wx,4))*200;ca[k]=ca[k+1]=ca[k+2]=a;ca[k+3]=255;cb[k]=cb[k+1]=cb[k+2]=b;cb[k+3]=255}}
+ const cm=(a,r,op)=>new THREE.Mesh(new THREE.SphereGeometry(R*r,96,64),new THREE.MeshPhongMaterial({color:0xffffff,emissive:0x1b2434,alphaMap:makeTex(a,CW,CH),transparent:true,opacity:op,depthWrite:false,shininess:0}));
+ cA=cm(ca,1.007,.96);cB=cm(cb,1.024,.7);sc.add(cA,cB);
+ const av='varying vec3 n;void main(){n=normalize(normalMatrix*normal);gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',bl={blending:THREE.AdditiveBlending,transparent:true,depthWrite:false};
+ sc.add(new THREE.Mesh(new THREE.SphereGeometry(R*1.05,96,64),new THREE.ShaderMaterial({vertexShader:av,fragmentShader:'varying vec3 n;void main(){float i=pow(.74-dot(n,vec3(0,0,1.)),3.);gl_FragColor=vec4(.32,.58,1.,1.)*i*1.9;}',side:THREE.BackSide,...bl})));
+ sc.add(new THREE.Mesh(new THREE.SphereGeometry(R*1.03,96,64),new THREE.ShaderMaterial({vertexShader:av,fragmentShader:'varying vec3 n;void main(){float i=pow(1.-max(dot(n,vec3(0,0,1.)),0.),3.5);gl_FragColor=vec4(.45,.7,1.,1.)*i*.4;}',...bl})));
+}
+
+/* ---------- airliner: lathe fuselage with livery texture, swept wings, twin engines, tail ---------- */
+const plane=new THREE.Group();
+function buildPlane(){
+ const c=document.createElement('canvas');c.width=512;c.height=1024;const g=c.getContext('2d');g.fillStyle='#f3f5f7';g.fillRect(0,0,512,1024);
+ let gr=g.createLinearGradient(0,0,512,0);gr.addColorStop(0,'#b9c1cb');gr.addColorStop(.13,'#f3f5f7');gr.addColorStop(.87,'#f3f5f7');gr.addColorStop(1,'#b9c1cb');g.fillStyle=gr;g.fillRect(0,0,512,1024);
+ g.fillStyle='#0f2a4f';g.fillRect(0,840,512,184);g.fillStyle='#d9963b';g.fillRect(0,832,512,8);
+ [128,384].forEach((x,k)=>{g.fillStyle='#0f2a4f';g.fillRect(x+(k?18:-26),110,8,730);g.fillStyle='#d9963b';g.fillRect(x+(k?30:-30),110,3,730);g.fillStyle='#1b2a3d';for(let y=150;y<800;y+=13){g.beginPath();g.ellipse(x,y,3.2,5,0,0,7);g.fill()}});
+ g.fillStyle='#16222f';g.beginPath();g.moveTo(190,70);g.lineTo(322,70);g.lineTo(312,92);g.lineTo(200,92);g.fill();
+ const ft=new THREE.CanvasTexture(c);ft.anisotropy=8;ft.encoding=THREE.sRGBEncoding;
+ const fp=[];for(let i=0;i<=80;i++){const u=i/80;let r;if(u<.3)r=.064*Math.pow(Math.sin(u/.3*Math.PI/2),.7)+.006;else if(u<.74)r=.07;else{const t=(u-.74)/.26;r=.07*Math.sqrt(Math.max(0,1-t*t))}fp.push(new THREE.Vector2(Math.max(r,.0005),-.5+u))}
+ const fg=new THREE.LatheGeometry(fp,64);fg.rotateX(Math.PI/2);const pa=fg.attributes.position;for(let i=0;i<pa.count;i++){const z=pa.getZ(i);if(z<-.18)pa.setY(i,pa.getY(i)+Math.pow((-.18-z)/.32,2)*.045)}fg.computeVertexNormals();
+ plane.add(new THREE.Mesh(fg,new THREE.MeshPhongMaterial({map:ft,shininess:70,specular:0x666666,side:THREE.DoubleSide})));
+ const ex=(pts,d)=>{const s=new THREE.Shape();pts.forEach((p,i)=>i?s.lineTo(p[0],p[1]):s.moveTo(p[0],p[1]));return new THREE.ExtrudeGeometry(s,{depth:d,bevelEnabled:true,bevelThickness:.003,bevelSegments:2,bevelSize:.003})};
+ const wm=new THREE.MeshPhongMaterial({color:0xe6eaee,shininess:50,specular:0x555555,side:THREE.DoubleSide}),em=new THREE.MeshPhongMaterial({color:0xcfd5db,shininess:90,specular:0x888888}),nv=new THREE.MeshPhongMaterial({color:0x0f2a4f,shininess:60,side:THREE.DoubleSide}),dark=new THREE.MeshBasicMaterial({color:0x14181e});
+ const wg=ex([[0,-.10],[.62,.20],[.62,.25],[0,.11]],.012),hg=ex([[0,-.04],[.20,.06],[.20,.09],[0,.05]],.008);
+ [1,-1].forEach(s=>{
+  const w=new THREE.Group();w.scale.x=s;w.position.set(0,-.03,.03);w.rotation.z=.06*s;
+  const m=new THREE.Mesh(wg,wm);m.rotation.x=-Math.PI/2;w.add(m);
+  const wl=new THREE.Mesh(new THREE.BoxGeometry(.01,.07,.045),wm);wl.position.set(.625,.03,-.225);wl.rotation.z=-.25;w.add(wl);
+  const e=new THREE.Mesh(new THREE.CylinderGeometry(.034,.03,.14,40),em);e.rotation.x=Math.PI/2;e.position.set(.17,-.05,.10);w.add(e);
+  const lip=new THREE.Mesh(new THREE.TorusGeometry(.033,.004,12,40),em);lip.position.set(.17,-.05,.171);w.add(lip);
+  const fan=new THREE.Mesh(new THREE.CircleGeometry(.03,32),dark);fan.position.set(.17,-.05,.169);w.add(fan);
+  const ex2=new THREE.Mesh(new THREE.CylinderGeometry(.03,.016,.05,32),new THREE.MeshPhongMaterial({color:0x6a7078,shininess:40}));ex2.rotation.x=Math.PI/2;ex2.position.set(.17,-.05,.015);w.add(ex2);
+  const py=new THREE.Mesh(new THREE.BoxGeometry(.012,.035,.12),wm);py.position.set(.17,-.015,.09);w.add(py);plane.add(w);
+  const h=new THREE.Group();h.scale.x=s;h.position.set(0,.03,-.38);const hm=new THREE.Mesh(hg,wm);hm.rotation.x=-Math.PI/2;h.add(hm);plane.add(h)});
+ const fin=new THREE.Mesh(ex([[.09,0],[-.05,.17],[-.11,.17],[-.12,0]],.01),nv);fin.rotation.y=-Math.PI/2;fin.position.set(.005,.07,-.35);plane.add(fin);
+ // navigation lights: red port (+x), green starboard (-x), white strobes, red beacon
+ const gc=document.createElement('canvas');gc.width=gc.height=64;const q=gc.getContext('2d'),rg=q.createRadialGradient(32,32,0,32,32,32);rg.addColorStop(0,'#fff');rg.addColorStop(.25,'rgba(255,255,255,.6)');rg.addColorStop(1,'rgba(255,255,255,0)');q.fillStyle=rg;q.fillRect(0,0,64,64);const gt=new THREE.CanvasTexture(gc);
+ const lt=(c,x,y,z,s)=>{const m=new THREE.Sprite(new THREE.SpriteMaterial({map:gt,color:c,blending:THREE.AdditiveBlending,transparent:true,depthWrite:false}));m.position.set(x,y,z);m.scale.setScalar(s);plane.add(m);return m};
+ lt(0xff2a2a,.63,.01,-.2,.07);lt(0x28ff6a,-.63,.01,-.2,.07);
+ plane.userData.strobe=[lt(0xffffff,.63,.01,-.2,.15),lt(0xffffff,-.63,.01,-.2,.15),lt(0xffffff,0,.08,-.5,.12)];plane.userData.beacon=lt(0xff2a2a,0,.075,-.1,.1);
+ plane.scale.setScalar(.8);sc.add(plane);
+}
+
+/* ---------- contrails (soft, ageing points from both engines) ---------- */
+const NT=300,tp=new Float32Array(NT*6),tb=new Float32Array(NT*2).fill(-1e3),tg=new THREE.BufferGeometry();tg.setAttribute('position',new THREE.BufferAttribute(tp,3));tg.setAttribute('birth',new THREE.BufferAttribute(tb,1));
+const trail=new THREE.Points(tg,new THREE.ShaderMaterial({uniforms:trU,transparent:true,depthWrite:false,vertexShader:'attribute float birth;uniform float uT,uS;varying float vA;void main(){float age=uT-birth;vec4 mv=modelViewMatrix*vec4(position,1.);vA=clamp(1.-age/2.6,0.,1.)*step(0.,age)*smoothstep(.25,1.4,-mv.z);gl_PointSize=(.03+age*.11)*uS/-mv.z;gl_Position=projectionMatrix*mv;}',fragmentShader:'varying float vA;void main(){float d=length(gl_PointCoord-.5);gl_FragColor=vec4(1.,1.,1.,smoothstep(.5,.05,d)*vA*.3);}'}));trail.frustumCulled=false;sc.add(trail);
+let ei=0,le=0,T=0;
+function emit(){const s=ei%NT;[.17,-.17].forEach((x,k)=>{const w=plane.localToWorld(new V3(x,-.08,0)),o=k*NT+s;tp[o*3]=w.x;tp[o*3+1]=w.y;tp[o*3+2]=w.z;tb[o]=T});ei++;tg.attributes.position.needsUpdate=tg.attributes.birth.needsUpdate=true}
+
+/* ---------- flight path: one full lap of the globe, then a gentle turn to Shanghai ---------- */
+const C=ll(31.23,121.47),FLIGHT=10;let curve,bank=[],lapFrac=.8;
+function simulate(){
+ let pos=ll(14,-30),la=14*Math.PI/180,lo=-30*Math.PI/180;
+ const E=new V3(-Math.sin(lo),0,-Math.cos(lo)),Nn=new V3(-Math.sin(la)*Math.cos(lo),Math.cos(la),Math.sin(la)*Math.sin(lo));
+ const fwd=E.multiplyScalar(Math.cos(.45)).addScaledVector(Nn,Math.sin(.45)),ds=.012,pts=[];let trav=0,lapN=0,lap=false,sm=0;
+ for(let n=0;n<1700;n++){
+  if(trav>=2*Math.PI&&!lap){lap=true;lapN=n}let turn=0;
+  if(lap){const d=C.clone().addScaledVector(pos,-pos.dot(C)).normalize(),ang=Math.atan2(pos.dot(new V3().crossVectors(fwd,d)),fwd.dot(d));turn=MU.clamp(ang*.05,-.008,.008);if(pos.angleTo(C)<.03)break}
+  fwd.applyAxisAngle(pos,turn);const ax=new V3().crossVectors(pos,fwd).normalize();pos.applyAxisAngle(ax,ds);fwd.applyAxisAngle(ax,ds);trav+=ds;fwd.addScaledVector(pos,-fwd.dot(pos)).normalize();pos.normalize();
+  sm=sm*.92+turn*.08;pts.push(pos.clone());bank.push(sm)}
+ lapFrac=lapN/pts.length;const N=pts.length;
+ curve=new THREE.CatmullRomCurve3(pts.map((p,i)=>{const a=i/N;return p.multiplyScalar(R*(a>.86?mx(1.016,1.0035,ss(.86,1,a)):1.016+.0007*Math.sin(a*60)))}),false,'centripetal');curve.arcLengthDivisions=3000;
+ // cloud puffs scattered under the path so you fly past them
+ const pc=document.createElement('canvas');pc.width=pc.height=256;const q=pc.getContext('2d');for(let i=0;i<14;i++){const x=70+Math.random()*116,y=96+Math.random()*70,r=34+Math.random()*34,g=q.createRadialGradient(x,y,0,x,y,r);g.addColorStop(0,'rgba(255,255,255,.9)');g.addColorStop(1,'rgba(255,255,255,0)');q.fillStyle=g;q.beginPath();q.arc(x,y,r,0,7);q.fill()}
+ q.globalCompositeOperation='source-atop';const sg=q.createLinearGradient(0,60,0,200);sg.addColorStop(0,'rgba(255,248,238,0)');sg.addColorStop(1,'rgba(140,160,190,.75)');q.fillStyle=sg;q.fillRect(0,0,256,256);
+ const pt=new THREE.CanvasTexture(pc);pt.encoding=THREE.sRGBEncoding;
+ for(let i=0;i<190;i++){const f=Math.random(),p=curve.getPointAt(f),t=curve.getTangentAt(f),nn=p.clone().normalize(),lat=new V3().crossVectors(nn,t).normalize().multiplyScalar((Math.random()-.5)*6);
+  const s=new THREE.Sprite(new THREE.SpriteMaterial({map:pt,transparent:true,depthWrite:false,opacity:.78,color:0xfff6ea}));s.position.copy(nn).multiplyScalar(R*(1.004+Math.random()*.008)).add(lat);s.position.setLength(R*(1.004+Math.random()*.008));s.scale.setScalar(1.3+Math.random()*2.2);sc.add(s)}
+}
+const bankAt=f=>{const x=f*(bank.length-1),i=Math.floor(x);return mx(bank[i],bank[Math.min(i+1,bank.length-1)],x-i)};
+
+/* ---------- state machine: wait -> intro -> fade -> home ---------- */
+let phase='wait',tm=0,last=performance.now();
+const P=new V3(),Tn=new V3(),N=new V3(),Rv=new V3(),a=new V3(),b=new V3(),look=new V3(),ZERO=new V3(),EST=ll(15,-12,30);
+const hs=$('#hs'),ht=$('#ht'),hb=$('#hb'),hp=$('#hp');
+function intro(dt){
+ if(phase==='intro')tm+=dt;const u=Math.min(1,tm/FLIGHT),f=u*u*(3-2*u);if(u>=1&&phase==='intro')finish();
+ curve.getPointAt(f,P);curve.getTangentAt(f,Tn);N.copy(P).normalize();Rv.crossVectors(Tn,N).normalize();
+ plane.position.copy(P);plane.up.copy(N);plane.lookAt(a.copy(P).add(Tn));plane.rotateZ(-bankAt(f)*14+Math.sin(T*.8)*.012);plane.updateMatrixWorld(true);
+ const on=(T%1.4)<.12;plane.userData.strobe.forEach(m=>m.material.opacity=on?1:0);plane.userData.beacon.material.opacity=(T%1)<.12?1:0;
+ if(T-le>.02){le=T;emit()}
+ sun.position.copy(P).addScaledVector(N,40).addScaledVector(Tn,28).addScaledVector(Rv,35);
+ // camera: wide establishing shot -> chase cam that slowly drifts around the plane -> dive
+ const e=MU.smootherstep(tm/4.5,0,1),dist=2.3+.4*Math.sin(T*.19);
+ a.copy(P).addScaledVector(Tn,-dist).addScaledVector(N,.75+.25*Math.sin(T*.23)).addScaledVector(Rv,Math.sin(T*.28)*1.5);
+ cam.position.lerpVectors(EST,a,e);const dd=ss(.88,1,u);
+ if(dd>0){b.copy(P).addScaledVector(N,mx(.8,.5,dd)).addScaledVector(Tn,-mx(dist,.9,dd));cam.position.lerp(b,dd)}
+ look.copy(P).addScaledVector(Tn,.6-.4*dd).addScaledVector(N,-.12-.6*dd).lerp(ZERO,1-e);
+ cam.up.set(0,1,0).lerp(N,e).normalize();cam.lookAt(look);
+ // HUD
+ const lap=Math.min(1,f/lapFrac),after=f>lapFrac;hb.style.width=(after?100:lap*100)+'%';
+ ht.textContent=f<.03?'Departing for the horizon':!after?'Circling the globe, one full lap':u<.88?'Lap complete. Setting course for China':'Descending into Shanghai';
+ hp.textContent=after?'LAP 1 OF 1 · COMPLETE':'LAP 1 OF 1 · '+Math.round(lap*100)+'%';
+ hs.textContent='ALT '+(u>.88?Math.round(3000+33000*(1-dd)).toLocaleString():'36,000')+' FT · '+(895+Math.round(Math.sin(T)*8))+' KM/H';
+}
+function finish(){if(phase!=='intro')return;phase='fade';$('#ov').style.opacity=1;setTimeout(()=>{phase='done';plane.visible=false;trail.visible=false;
+ // >>> HOOK: intro finished and the screen is fully navy. Open your homepage here. <<<
+ window.dispatchEvent(new CustomEvent('intro:complete'));
+ if(typeof window.onIntroComplete==='function')window.onIntroComplete();else $('#done').classList.add('on')},950)}
+$('#skip').onclick=()=>{tm=Math.max(tm,FLIGHT*.9)};
+function frame(now){requestAnimationFrame(frame);const dt=Math.min(.05,(now-last)/1000);last=now;T+=dt;trU.uT.value=T;
+ if(phase==='wait')return;cA.rotation.y+=dt*.003;cB.rotation.y+=dt*.005;
+ if(phase==='done')return;intro(dt);ren.render(sc,cam)}
+
+setTimeout(()=>{buildEarth();buildPlane();simulate();built=true;phase='intro';const l=$('#ld');l.style.opacity=0;setTimeout(()=>l.remove(),900)},80);
+requestAnimationFrame(frame);
+})();
+</script></body></html>

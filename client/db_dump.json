@@ -1,0 +1,2258 @@
+[
+  {
+    "_id": "6abc141ae9cb2b3efc396233",
+    "name": "Smartwatch",
+    "description": "Fitness tracker wearable",
+    "retailPrice": 150
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396238",
+    "name": "Laptop",
+    "description": "14-inch business notebook",
+    "retailPrice": 1800
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39623c",
+    "name": "Mechanical Keyboard",
+    "description": "RGB gaming keyboard",
+    "retailPrice": 180
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39623d",
+    "name": "USB Flash Drive",
+    "description": "64GB memory stick",
+    "retailPrice": 30
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396247",
+    "name": "Digital Photo Frame",
+    "description": "8-inch electronic frame",
+    "retailPrice": 150
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396258",
+    "name": "Smart Scale",
+    "description": "Body fat analyzing scale",
+    "retailPrice": 85
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39625e",
+    "name": "Dirt Bike",
+    "description": "125cc off-road motorcycle",
+    "retailPrice": 4500
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396261",
+    "name": "Car Battery",
+    "description": "12V lead-acid auto battery",
+    "retailPrice": 350
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39623f",
+    "name": "Dash Cam",
+    "description": "1080P car video recorder",
+    "retailPrice": 160
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396250",
+    "name": "Phone Case",
+    "description": "Silicone protective cover",
+    "retailPrice": 10
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396251",
+    "name": "Screen Protector",
+    "description": "Tempered glass film",
+    "retailPrice": 5
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39624e",
+    "name": "USB-C Hub",
+    "description": "Multi-port adapter dongle",
+    "retailPrice": 80
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396254",
+    "name": "Air Purifier",
+    "description": "HEPA home filter system",
+    "retailPrice": 400
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396257",
+    "name": "Digital Thermometer",
+    "description": "Infrared forehead scanner",
+    "retailPrice": 60
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39625b",
+    "name": "Electric Generator",
+    "description": "Portable 2000W gas generator",
+    "retailPrice": 1500
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396236",
+    "name": "Mobile Phone LCD",
+    "description": "Replacement screen",
+    "retailPrice": 120
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396242",
+    "name": "WiFi Router",
+    "description": "Dual-band gigabit router",
+    "retailPrice": 130
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396243",
+    "name": "VR Headset",
+    "description": "Virtual reality gaming goggles",
+    "retailPrice": 1500
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396239",
+    "name": "Drone & UAV",
+    "description": "HD camera quadcopter",
+    "retailPrice": 2200
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39623b",
+    "name": "Wireless Mouse",
+    "description": "Ergonomic optical mouse",
+    "retailPrice": 25
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396248",
+    "name": "E-Reader",
+    "description": "E-ink display reading device",
+    "retailPrice": 650
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39624a",
+    "name": "Mini Projector",
+    "description": "Portable LED projector",
+    "retailPrice": 450
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396240",
+    "name": "Bluetooth Speaker",
+    "description": "Portable waterproof speaker",
+    "retailPrice": 90
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396237",
+    "name": "CCTV Camera",
+    "description": "Security surveillance dome",
+    "retailPrice": 180
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396244",
+    "name": "Action Camera",
+    "description": "4K sports video camera",
+    "retailPrice": 350
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396246",
+    "name": "Smart Ring",
+    "description": "Health monitoring jewelry",
+    "retailPrice": 300
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396252",
+    "name": "Smart Door Lock",
+    "description": "Fingerprint biometric lock",
+    "retailPrice": 500
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396253",
+    "name": "Robot Vacuum",
+    "description": "Automatic floor cleaner",
+    "retailPrice": 850
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396249",
+    "name": "Webcam",
+    "description": "1080p PC video camera",
+    "retailPrice": 120
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39625f",
+    "name": "Hybrid Electric Vehicle",
+    "description": "Compact sedan chassis",
+    "retailPrice": 35000
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396232",
+    "name": "Rugged Phone",
+    "description": "Waterproof/shockproof phone",
+    "retailPrice": 1100
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396234",
+    "name": "Bluetooth Headset",
+    "description": "Wireless audio earphones",
+    "retailPrice": 85
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39623a",
+    "name": "Tablet PC",
+    "description": "10-inch Android tablet",
+    "retailPrice": 500
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39623e",
+    "name": "SSD Drive",
+    "description": "512GB internal solid state drive",
+    "retailPrice": 200
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396241",
+    "name": "Smart Home Hub",
+    "description": "Home automation gateway",
+    "retailPrice": 210
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39625a",
+    "name": "Auto Spare Parts",
+    "description": "Engine timing belt",
+    "retailPrice": 85
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396231",
+    "name": "Smart Phone",
+    "description": "Android mobile device",
+    "retailPrice": 700
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396259",
+    "name": "Motorcycle Tyre",
+    "description": "17-inch tubeless rubber",
+    "retailPrice": 120
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396262",
+    "name": "Spark Plug",
+    "description": "Iridium engine ignition plug",
+    "retailPrice": 20
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396245",
+    "name": "Gaming Console",
+    "description": "Retro handheld player",
+    "retailPrice": 220
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39624b",
+    "name": "Smart Plug",
+    "description": "WiFi-enabled power outlet",
+    "retailPrice": 40
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39624c",
+    "name": "Wireless Charger",
+    "description": "15W Qi charging pad",
+    "retailPrice": 35
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396255",
+    "name": "Electric Toothbrush",
+    "description": "Sonic rechargeable brush",
+    "retailPrice": 95
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396235",
+    "name": "Power Bank",
+    "description": "10000mAh portable charger",
+    "retailPrice": 45
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396256",
+    "name": "Hair Dryer",
+    "description": "Ionic salon blower",
+    "retailPrice": 120
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396260",
+    "name": "Brake Pads",
+    "description": "Ceramic front brake set",
+    "retailPrice": 70
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39624d",
+    "name": "HDMI Cable",
+    "description": "2-meter 4K braided cable",
+    "retailPrice": 15
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39624f",
+    "name": "Gaming Headset",
+    "description": "Over-ear headphones with mic",
+    "retailPrice": 150
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39625c",
+    "name": "Butterfly Valve",
+    "description": "Industrial piping valve",
+    "retailPrice": 250
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39625d",
+    "name": "Motorhome Accessory",
+    "description": "RV water pump",
+    "retailPrice": 180
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396267",
+    "name": "Floor Mats",
+    "description": "All-weather rubber car mats",
+    "retailPrice": 120
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396274",
+    "name": "OBD2 Scanner",
+    "description": "Auto diagnostic code reader",
+    "retailPrice": 120
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396275",
+    "name": "Car Wax",
+    "description": "Carnauba auto polish",
+    "retailPrice": 45
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396289",
+    "name": "Used Clothes",
+    "description": "45kg mixed bale apparel",
+    "retailPrice": 350
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396264",
+    "name": "LED Headlight",
+    "description": "H4 auto LED bulb pair",
+    "retailPrice": 80
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396273",
+    "name": "Jump Starter",
+    "description": "Portable lithium battery pack",
+    "retailPrice": 250
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396281",
+    "name": "Men's T-Shirt",
+    "description": "Cotton short-sleeve basic",
+    "retailPrice": 35
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396285",
+    "name": "100% Polyester Fabric",
+    "description": "1 meter roll textile",
+    "retailPrice": 12
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39628e",
+    "name": "Yoga Pants",
+    "description": "Spandex high-waisted leggings",
+    "retailPrice": 50
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39626a",
+    "name": "Alternator",
+    "description": "12V auto power generator",
+    "retailPrice": 450
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396277",
+    "name": "Motorcycle Chain",
+    "description": "Heavy-duty drive chain",
+    "retailPrice": 110
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39627b",
+    "name": "Tow Hitch",
+    "description": "Heavy-duty trailer receiver",
+    "retailPrice": 280
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396293",
+    "name": "Tracksuit",
+    "description": "2-piece athletic warmup suit",
+    "retailPrice": 110
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39626b",
+    "name": "Starter Motor",
+    "description": "Car ignition starter",
+    "retailPrice": 380
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396272",
+    "name": "Car Jack",
+    "description": "2-ton hydraulic bottle jack",
+    "retailPrice": 95
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396284",
+    "name": "Soccer Wear",
+    "description": "Polyester team jersey set",
+    "retailPrice": 55
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39628c",
+    "name": "Hoodie",
+    "description": "Fleece pullover sweatshirt",
+    "retailPrice": 65
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396292",
+    "name": "Polo Shirt",
+    "description": "Pique knit collared tee",
+    "retailPrice": 45
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396263",
+    "name": "Oil Filter",
+    "description": "Standard spin-on oil filter",
+    "retailPrice": 15
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39627f",
+    "name": "GPS Tracker",
+    "description": "Vehicle fleet locator",
+    "retailPrice": 150
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39626c",
+    "name": "Fuel Pump",
+    "description": "Electric auto fuel pump",
+    "retailPrice": 150
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39626d",
+    "name": "Air Filter",
+    "description": "Engine intake air cleaner",
+    "retailPrice": 25
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396276",
+    "name": "Motorcycle Helmet",
+    "description": "Full-face safety gear",
+    "retailPrice": 280
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39627c",
+    "name": "Winches",
+    "description": "12V electric off-road winch",
+    "retailPrice": 1100
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396268",
+    "name": "Shock Absorber",
+    "description": "Rear suspension strut",
+    "retailPrice": 220
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396270",
+    "name": "Seat Cover Set",
+    "description": "Faux leather full interior set",
+    "retailPrice": 300
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396288",
+    "name": "Baby Romper",
+    "description": "Cotton newborn one-piece",
+    "retailPrice": 45
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396290",
+    "name": "Swimsuit",
+    "description": "One-piece women's swimwear",
+    "retailPrice": 55
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396280",
+    "name": "EV Charging Cable",
+    "description": "Type 2 portable charger",
+    "retailPrice": 600
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39628b",
+    "name": "Winter Coat",
+    "description": "Puffer down-alternative jacket",
+    "retailPrice": 180
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396271",
+    "name": "Tire Pressure Monitor",
+    "description": "TPMS sensor kit",
+    "retailPrice": 180
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396278",
+    "name": "Exhaust Muffler",
+    "description": "Stainless steel tailpipe",
+    "retailPrice": 250
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39627a",
+    "name": "Roof Rack",
+    "description": "Aluminum cargo carrier bars",
+    "retailPrice": 350
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39628d",
+    "name": "Women's Dress",
+    "description": "Floral summer maxi dress",
+    "retailPrice": 75
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396294",
+    "name": "Raincoat",
+    "description": "Waterproof hooded trench",
+    "retailPrice": 70
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396266",
+    "name": "Car Cover",
+    "description": "Waterproof UV protection cover",
+    "retailPrice": 90
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39626f",
+    "name": "Steering Wheel Cover",
+    "description": "Leather grip cover",
+    "retailPrice": 40
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396279",
+    "name": "Alloy Wheels",
+    "description": "16-inch custom rim set",
+    "retailPrice": 1200
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39627d",
+    "name": "Car Stereo",
+    "description": "Double DIN touchscreen unit",
+    "retailPrice": 450
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396283",
+    "name": "Children's Suit",
+    "description": "3-piece formal boys' set",
+    "retailPrice": 150
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396269",
+    "name": "Radiator",
+    "description": "Aluminum engine cooling unit",
+    "retailPrice": 350
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39626e",
+    "name": "Cabin Air Filter",
+    "description": "AC pollen filter",
+    "retailPrice": 20
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396282",
+    "name": "Underpants",
+    "description": "Modal breathable boxer briefs",
+    "retailPrice": 18
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39628f",
+    "name": "Sports Bra",
+    "description": "Moisture-wicking athletic top",
+    "retailPrice": 40
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396265",
+    "name": "Wiper Blades",
+    "description": "Silicone aerodynamic wipers",
+    "retailPrice": 25
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396286",
+    "name": "Yarn",
+    "description": "Acrylic knitting wool blend",
+    "retailPrice": 25
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396287",
+    "name": "Wig",
+    "description": "Synthetic long curly hairpiece",
+    "retailPrice": 65
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc396291",
+    "name": "Men's Dress Shirt",
+    "description": "Wrinkle-free button-down",
+    "retailPrice": 60
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39627e",
+    "name": "Subwoofer",
+    "description": "10-inch auto bass speaker",
+    "retailPrice": 300
+  },
+  {
+    "_id": "6abc141ae9cb2b3efc39628a",
+    "name": "Denim Jeans",
+    "description": "Classic fit blue trousers",
+    "retailPrice": 80
+  },
+  {
+    "_id": "6abc141be9cb2b3efc396295",
+    "name": "Leather Jacket",
+    "description": "Faux PU biker jacket",
+    "retailPrice": 150
+  },
+  {
+    "_id": "6abc141be9cb2b3efc396299",
+    "name": "Winter Gloves",
+    "description": "Touchscreen thermal gloves",
+    "retailPrice": 30
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962af",
+    "name": "Medical Diagnosis Equipment",
+    "description": "Portable ultrasound scanner",
+    "retailPrice": 8500
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962ba",
+    "name": "CPAP Machine",
+    "description": "Sleep apnea therapy device",
+    "retailPrice": 1800
+  },
+  {
+    "_id": "6abc141be9cb2b3efc396297",
+    "name": "Socks",
+    "description": "5-pair cotton ankle socks pack",
+    "retailPrice": 20
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962b1",
+    "name": "Wheelchair",
+    "description": "Foldable manual transit chair",
+    "retailPrice": 450
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962bc",
+    "name": "Massage Gun",
+    "description": "Deep tissue muscle massager",
+    "retailPrice": 180
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962c4",
+    "name": "Oxygen Concentrator",
+    "description": "5L home medical O2 generator",
+    "retailPrice": 1500
+  },
+  {
+    "_id": "6abc141be9cb2b3efc39629f",
+    "name": "Necktie",
+    "description": "Silk woven business tie",
+    "retailPrice": 25
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962b5",
+    "name": "Stethoscope",
+    "description": "Dual-head acoustic diagnostic",
+    "retailPrice": 90
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962b8",
+    "name": "First Aid Kit",
+    "description": "100-piece emergency survival bag",
+    "retailPrice": 65
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962bd",
+    "name": "Neck Massager",
+    "description": "Shiatsu heated kneading pillow",
+    "retailPrice": 120
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962be",
+    "name": "Foot Spa",
+    "description": "Heated bubbling foot bath",
+    "retailPrice": 150
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962c5",
+    "name": "Dental Chair",
+    "description": "Complete professional clinic unit",
+    "retailPrice": 12000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962a5",
+    "name": "Formal Shoes",
+    "description": "Men's PU leather oxfords",
+    "retailPrice": 130
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962b6",
+    "name": "Pulse Oximeter",
+    "description": "Fingertip blood oxygen monitor",
+    "retailPrice": 45
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962b9",
+    "name": "Thermometer",
+    "description": "Digital clinical thermometer",
+    "retailPrice": 15
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962bf",
+    "name": "Knee Brace",
+    "description": "Orthopedic support sleeve",
+    "retailPrice": 35
+  },
+  {
+    "_id": "6abc141be9cb2b3efc39629c",
+    "name": "Beanie",
+    "description": "Knit winter skull cap",
+    "retailPrice": 18
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962ab",
+    "name": "Shockwave Therapy Machine",
+    "description": "Physiotherapy pain relief",
+    "retailPrice": 3500
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962c6",
+    "name": "Dental Scaler",
+    "description": "Ultrasonic teeth cleaning tool",
+    "retailPrice": 650
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962c3",
+    "name": "Commode Chair",
+    "description": "Bedside toilet for disabled",
+    "retailPrice": 180
+  },
+  {
+    "_id": "6abc141be9cb2b3efc396298",
+    "name": "Tights/Pantyhose",
+    "description": "Sheer nylon hosiery",
+    "retailPrice": 15
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962a2",
+    "name": "Wallet",
+    "description": "Bifold RFID-blocking purse",
+    "retailPrice": 35
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962a7",
+    "name": "Hair Accessories",
+    "description": "Scrunchie and clip set",
+    "retailPrice": 10
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962a8",
+    "name": "Wristwatch",
+    "description": "Quartz fashion steel watch",
+    "retailPrice": 80
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962bb",
+    "name": "Hearing Aid",
+    "description": "Rechargeable inner-ear amplifier",
+    "retailPrice": 350
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962c1",
+    "name": "Crutches",
+    "description": "Aluminum adjustable underarm",
+    "retailPrice": 80
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962a6",
+    "name": "Sandals",
+    "description": "Summer casual flip-flops",
+    "retailPrice": 25
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962b0",
+    "name": "Prosthetic Knee Joint",
+    "description": "Artificial limb connector",
+    "retailPrice": 1800
+  },
+  {
+    "_id": "6abc141be9cb2b3efc39629d",
+    "name": "Sunglasses",
+    "description": "Polarized UV400 eyewear",
+    "retailPrice": 35
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962ac",
+    "name": "Hyperbaric Oxygen Chamber",
+    "description": "Portable 1.5 ATA chamber",
+    "retailPrice": 15000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962ae",
+    "name": "Household Health Test",
+    "description": "Digital ovulation test kit",
+    "retailPrice": 25
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962b3",
+    "name": "Hospital Bed",
+    "description": "Manual 2-crank patient bed",
+    "retailPrice": 1200
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962a1",
+    "name": "Backpack",
+    "description": "Nylon waterproof school bag",
+    "retailPrice": 85
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962b4",
+    "name": "Surgical Gloves",
+    "description": "Box of 100 nitrile gloves",
+    "retailPrice": 35
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962c2",
+    "name": "Walker",
+    "description": "Foldable elderly rollator with seat",
+    "retailPrice": 280
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962a4",
+    "name": "Hiking Boots",
+    "description": "Waterproof outdoor shoes",
+    "retailPrice": 180
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962aa",
+    "name": "Wrist Blood Pressure Monitor",
+    "description": "Portable automatic meter",
+    "retailPrice": 85
+  },
+  {
+    "_id": "6abc141be9cb2b3efc39629a",
+    "name": "Scarf",
+    "description": "Cashmere-feel winter wrap",
+    "retailPrice": 45
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962a3",
+    "name": "Running Shoes",
+    "description": "Lightweight breathable sneakers",
+    "retailPrice": 110
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962b7",
+    "name": "Nebulizer",
+    "description": "Compressor asthma machine",
+    "retailPrice": 150
+  },
+  {
+    "_id": "6abc141be9cb2b3efc39629b",
+    "name": "Baseball Cap",
+    "description": "Adjustable cotton sports hat",
+    "retailPrice": 20
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962a0",
+    "name": "Handbag",
+    "description": "PU leather women's tote",
+    "retailPrice": 120
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962ad",
+    "name": "Disposable Medical Supplies",
+    "description": "Box of 50 surgical masks",
+    "retailPrice": 15
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962c0",
+    "name": "Back Brace",
+    "description": "Lumbar posture corrector",
+    "retailPrice": 45
+  },
+  {
+    "_id": "6abc141be9cb2b3efc396296",
+    "name": "Pajama Set",
+    "description": "Silk-like sleepwear",
+    "retailPrice": 65
+  },
+  {
+    "_id": "6abc141be9cb2b3efc39629e",
+    "name": "Leather Belt",
+    "description": "Men's formal buckle belt",
+    "retailPrice": 40
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962a9",
+    "name": "Arm Blood Pressure Monitor",
+    "description": "Digital home BPM",
+    "retailPrice": 120
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962b2",
+    "name": "Electric Wheelchair",
+    "description": "Motorized mobility scooter",
+    "retailPrice": 3200
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962ed",
+    "name": "Generator Set",
+    "description": "50kVA silent diesel generator",
+    "retailPrice": 28000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962cc",
+    "name": "Medical Centrifuge",
+    "description": "Lab blood separation spinner",
+    "retailPrice": 850
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962d5",
+    "name": "Snack Machinery",
+    "description": "Potato chip frying line",
+    "retailPrice": 28000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962e2",
+    "name": "Gearbox",
+    "description": "Industrial speed reducer",
+    "retailPrice": 1500
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962ee",
+    "name": "Hydraulic Press",
+    "description": "100-ton workshop press",
+    "retailPrice": 22000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962da",
+    "name": "Electric Forklift",
+    "description": "1.5-ton warehouse stacker",
+    "retailPrice": 35000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962e1",
+    "name": "Electric Motor",
+    "description": "3-phase AC induction motor",
+    "retailPrice": 800
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962de",
+    "name": "Air Compressor",
+    "description": "50L silent oil-free compressor",
+    "retailPrice": 850
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962e4",
+    "name": "Injection Molding Machine",
+    "description": "Plastic parts manufacturer",
+    "retailPrice": 90000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962f2",
+    "name": "Bearing",
+    "description": "6204 deep groove ball bearing",
+    "retailPrice": 10
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962f6",
+    "name": "Chain Hoist",
+    "description": "1-ton manual chain block",
+    "retailPrice": 350
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962cd",
+    "name": "Microscope",
+    "description": "Binocular biological lab scope",
+    "retailPrice": 700
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962d7",
+    "name": "Grinding Wheel",
+    "description": "4-inch abrasive metal disc",
+    "retailPrice": 15
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962d4",
+    "name": "Fruit & Veg Machinery",
+    "description": "Industrial apple peeler/corer",
+    "retailPrice": 12000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962d9",
+    "name": "Forklift",
+    "description": "3-ton diesel material handler",
+    "retailPrice": 55000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962dd",
+    "name": "Welding Machine",
+    "description": "MIG/TIG inverter welder",
+    "retailPrice": 1500
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962f5",
+    "name": "V-Belt",
+    "description": "Rubber transmission drive belt",
+    "retailPrice": 25
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962ce",
+    "name": "Surgical Gown",
+    "description": "Disposable sterile isolation PPE",
+    "retailPrice": 18
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962eb",
+    "name": "Industrial Chiller",
+    "description": "Water cooling system",
+    "retailPrice": 18000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962c7",
+    "name": "Sterilizer",
+    "description": "Medical autoclave machine",
+    "retailPrice": 3000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962db",
+    "name": "Pallet Jack",
+    "description": "Manual hand pallet truck",
+    "retailPrice": 1200
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962d8",
+    "name": "Textile Machinery Parts",
+    "description": "Weaving loom shuttle",
+    "retailPrice": 150
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962dc",
+    "name": "Laser Cutting Machine",
+    "description": "Fiber laser metal cutter",
+    "retailPrice": 80000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962e8",
+    "name": "Pellet Mill",
+    "description": "Biomass wood pellet press",
+    "retailPrice": 15000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962e9",
+    "name": "Crusher",
+    "description": "Jaw stone crushing machine",
+    "retailPrice": 35000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962f3",
+    "name": "Pneumatic Cylinder",
+    "description": "Double acting air cylinder",
+    "retailPrice": 120
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962d0",
+    "name": "CNC Milling Machine",
+    "description": "3-axis metal working router",
+    "retailPrice": 35000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962ea",
+    "name": "Mixer",
+    "description": "Ribbon blender powder mixer",
+    "retailPrice": 12000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962ef",
+    "name": "Lathe Machine",
+    "description": "Metal turning lathe",
+    "retailPrice": 30000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962f1",
+    "name": "Drill Press",
+    "description": "Heavy-duty pillar drill",
+    "retailPrice": 2200
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962cb",
+    "name": "Fetal Doppler",
+    "description": "Portable baby heartbeat monitor",
+    "retailPrice": 120
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962e0",
+    "name": "Solar Water Pump",
+    "description": "DC submersible well pump",
+    "retailPrice": 1200
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962f0",
+    "name": "Band Saw",
+    "description": "Metal cutting horizontal saw",
+    "retailPrice": 8500
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962f7",
+    "name": "Industrial Fan",
+    "description": "36-inch factory ventilation fan",
+    "retailPrice": 650
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962e3",
+    "name": "Conveyor Belt",
+    "description": "Rubber industrial transport belt",
+    "retailPrice": 350
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962f4",
+    "name": "Solenoid Valve",
+    "description": "2-way brass electric valve",
+    "retailPrice": 85
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962d2",
+    "name": "Skid Steer Loader",
+    "description": "Compact construction tractor",
+    "retailPrice": 60000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962d3",
+    "name": "Thermoforming Machine",
+    "description": "Plastic packaging maker",
+    "retailPrice": 45000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962d6",
+    "name": "Robot Arm",
+    "description": "6-axis industrial manipulator",
+    "retailPrice": 40000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962c9",
+    "name": "Patient Monitor",
+    "description": "Multi-parameter vital signs ICU",
+    "retailPrice": 3500
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962cf",
+    "name": "Bandages",
+    "description": "Roll of elastic crepe wrap",
+    "retailPrice": 5
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962df",
+    "name": "Water Pump",
+    "description": "2HP centrifugal irrigation pump",
+    "retailPrice": 650
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962ca",
+    "name": "Infusion Pump",
+    "description": "Medical IV drip controller",
+    "retailPrice": 1800
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962d1",
+    "name": "Overhead Crane",
+    "description": "5-ton warehouse hoist",
+    "retailPrice": 25000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962e6",
+    "name": "Labeling Machine",
+    "description": "Round bottle sticker applicator",
+    "retailPrice": 8500
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962ec",
+    "name": "Dust Collector",
+    "description": "Cyclone factory air filter",
+    "retailPrice": 5500
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962f8",
+    "name": "Solar Panels",
+    "description": "400W Monocrystalline module",
+    "retailPrice": 650
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962c8",
+    "name": "ECG Machine",
+    "description": "3-channel electrocardiograph",
+    "retailPrice": 2200
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962e5",
+    "name": "Packaging Machine",
+    "description": "Automatic form-fill-seal unit",
+    "retailPrice": 25000
+  },
+  {
+    "_id": "6abc141be9cb2b3efc3962e7",
+    "name": "Filling Machine",
+    "description": "Liquid piston filler",
+    "retailPrice": 4500
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc3962ff",
+    "name": "Solar Water Heater",
+    "description": "200L vacuum tube system",
+    "retailPrice": 1500
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396306",
+    "name": "Solar Backpack",
+    "description": "Bag with integrated USB charger",
+    "retailPrice": 220
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396309",
+    "name": "Hydro Generator",
+    "description": "500W micro pelton turbine",
+    "retailPrice": 1800
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396302",
+    "name": "Solar Charge Controller",
+    "description": "60A MPPT regulator",
+    "retailPrice": 450
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc39630f",
+    "name": "Solar Fridge",
+    "description": "100L DC compressor refrigerator",
+    "retailPrice": 1500
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396314",
+    "name": "Solar Fountain Pump",
+    "description": "Bird bath water feature",
+    "retailPrice": 65
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc3962fd",
+    "name": "Solar Street Light",
+    "description": "100W all-in-one LED outdoor",
+    "retailPrice": 350
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396301",
+    "name": "Solar Tracker",
+    "description": "Single-axis automated mount",
+    "retailPrice": 2500
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc39631a",
+    "name": "Geothermal Pipe",
+    "description": "HDPE ground source tubing",
+    "retailPrice": 12
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396303",
+    "name": "Microinverter",
+    "description": "600W grid-tie dual input",
+    "retailPrice": 850
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396326",
+    "name": "TWS Active Noise Cancellation Bluetooth Earphones",
+    "description": "Premium true-wireless earbuds mimicking top global brands (1:1 styling). Features smart conversation perception and deep ANC.",
+    "retailPrice": 90
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396308",
+    "name": "Biogas Digester",
+    "description": "2m3 home waste gas system",
+    "retailPrice": 2800
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396316",
+    "name": "Portable Solar Charger",
+    "description": "21W foldable USB panel",
+    "retailPrice": 280
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396318",
+    "name": "Pellet Stove",
+    "description": "Biomass heating fireplace",
+    "retailPrice": 2500
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc39630c",
+    "name": "MC4 Connectors",
+    "description": "Pair of waterproof PV plugs",
+    "retailPrice": 5
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc39631d",
+    "name": "BIPV Glass",
+    "description": "Building integrated photovoltaic",
+    "retailPrice": 850
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396323",
+    "name": "Polyurethane Foam",
+    "description": "Spray insulation canister",
+    "retailPrice": 25
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc3962fb",
+    "name": "EV Charging Station",
+    "description": "7kW AC wallbox charger",
+    "retailPrice": 1200
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396305",
+    "name": "Solar Flood Light",
+    "description": "200W outdoor security lamp",
+    "retailPrice": 180
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc39630a",
+    "name": "Energy Meter",
+    "description": "Smart bidirectional grid meter",
+    "retailPrice": 250
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc39631f",
+    "name": "Tidal Generator Model",
+    "description": "Small educational kit",
+    "retailPrice": 85
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396322",
+    "name": "LLDPE Film",
+    "description": "Industrial stretch wrap roll",
+    "retailPrice": 45
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc39630b",
+    "name": "Solar Cable",
+    "description": "4mm2 dual-core PV wire (per meter)",
+    "retailPrice": 6
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396315",
+    "name": "EV Charging Cable",
+    "description": "32A Type 2 to Type 2",
+    "retailPrice": 550
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc39631b",
+    "name": "Solar Traffic Light",
+    "description": "Warning blinking beacon",
+    "retailPrice": 350
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396317",
+    "name": "Solar Exhaust Fan",
+    "description": "Attic ventilation ventilator",
+    "retailPrice": 450
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc39631e",
+    "name": "Solar Roof Tile",
+    "description": "Interlocking power generating tile",
+    "retailPrice": 150
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc3962fe",
+    "name": "Portable Power Station",
+    "description": "500W camping battery",
+    "retailPrice": 1200
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396304",
+    "name": "Flexible Solar Panel",
+    "description": "100W ETFE boat/RV panel",
+    "retailPrice": 350
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc39630e",
+    "name": "Gel Battery",
+    "description": "12V 200Ah deep cycle lead-acid",
+    "retailPrice": 1100
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396310",
+    "name": "Solar AC",
+    "description": "12000 BTU hybrid air conditioner",
+    "retailPrice": 3500
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396327",
+    "name": "Eco-Friendly PLA 3D Printing Filament",
+    "description": "High-quality, biodegradable poly-lactic acid filament used for FDM 3D printers. Hugely popular in Europe and the Americas for prototyping and hobbyists.",
+    "retailPrice": 60
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc3962f9",
+    "name": "Hybrid Solar Inverter",
+    "description": "5kW off-grid inverter",
+    "retailPrice": 2200
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396300",
+    "name": "Solar Mounting Bracket",
+    "description": "Aluminum roof rail kit",
+    "retailPrice": 150
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396307",
+    "name": "Solar Oven",
+    "description": "Portable solar cooker",
+    "retailPrice": 450
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396319",
+    "name": "Heat Pump",
+    "description": "Air source water heater",
+    "retailPrice": 4500
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396320",
+    "name": "PLA 3D Filament",
+    "description": "1kg spool eco-friendly plastic",
+    "retailPrice": 65
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396312",
+    "name": "LED Bulb",
+    "description": "9W energy-saving E27 light",
+    "retailPrice": 8
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc39631c",
+    "name": "Solar Power Bank",
+    "description": "20000mAh rugged charger",
+    "retailPrice": 120
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396324",
+    "name": "5kW Hybrid Off-Grid Solar Energy System",
+    "description": "A complete home power solution capturing the booming renewable energy market. Includes a hybrid inverter, solar panels, and a lithium battery bank. Highly demanded for grid independence.",
+    "retailPrice": 15000
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc3962fc",
+    "name": "Wind Turbine",
+    "description": "1kW residential wind generator",
+    "retailPrice": 3500
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc3962fa",
+    "name": "Lithium Battery",
+    "description": "48V 100Ah LiFePO4 storage",
+    "retailPrice": 5500
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc39630d",
+    "name": "Battery BMS",
+    "description": "16S smart battery management",
+    "retailPrice": 350
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396311",
+    "name": "Wind-Solar Hybrid Controller",
+    "description": "Dual input regulator",
+    "retailPrice": 650
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396313",
+    "name": "Solar Garden Light",
+    "description": "Decorative pathway spike",
+    "retailPrice": 25
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396321",
+    "name": "Silicone Sealant",
+    "description": "300ml construction adhesive tube",
+    "retailPrice": 15
+  },
+  {
+    "_id": "6abc141ce9cb2b3efc396325",
+    "name": "1.5 ATA Soft Hyperbaric Oxygen Chamber",
+    "description": "A portable, inflatable high-pressure oxygen therapy tent for home or spa use. Rapidly growing in the wellness, sports recovery, and rehabilitation sectors.",
+    "retailPrice": 17000
+  },
+  {
+    "_id": "6abc1c09a876585ea504630b",
+    "name": "Pocket Mini Bluetooth Speaker",
+    "description": "Ultra-compact waterproof wireless speaker with deep bass.",
+    "retailPrice": 650
+  },
+  {
+    "_id": "6abc1c09a876585ea504631b",
+    "name": "Bluetooth Wireless Mobile Gamepad",
+    "description": "Ergonomic controller with telescopic clamp for mobile gaming.",
+    "retailPrice": 1350
+  },
+  {
+    "_id": "6abc1c09a876585ea5046323",
+    "name": "6-in-1 Type-C Multi-Port Hub",
+    "description": "4K HDMI, USB 3.0 ports, SD card reader, PD passthrough.",
+    "retailPrice": 1150
+  },
+  {
+    "_id": "6abc1c09a876585ea50462ff",
+    "name": "3-in-1 Braided Fast Charging Cable",
+    "description": "Simultaneous charging for Type-C, Micro-USB, and Lightning.",
+    "retailPrice": 250
+  },
+  {
+    "_id": "6abc1c09a876585ea5046313",
+    "name": "RGB Sound-Activated Rhythm Light",
+    "description": "Desktop ambient pickup audio light with multi-color spectrum.",
+    "retailPrice": 550
+  },
+  {
+    "_id": "6abc1c09a876585ea50462ef",
+    "name": "K8/K9 Wireless Lapel Microphone",
+    "description": "Plug-and-play lavalier mic for TikTok, vloggers, and content creators.",
+    "retailPrice": 650
+  },
+  {
+    "_id": "6abc1c09a876585ea50462f3",
+    "name": "RGB Mobile Phone Radiator Cooler",
+    "description": "Semiconductor cooling fan for lag-free gaming (PUBG/Free Fire).",
+    "retailPrice": 750
+  },
+  {
+    "_id": "6abc1c09a876585ea5046317",
+    "name": "1080P WiFi Mini Spy/Nanny Camera",
+    "description": "Night-vision magnetic wireless micro security camera.",
+    "retailPrice": 1200
+  },
+  {
+    "_id": "6abc1c09a876585ea5046327",
+    "name": "Rechargeable Fabric Shaver / Lint Remover",
+    "description": "Rotary stainless-steel blade head to restore sweaters and blankets.",
+    "retailPrice": 490
+  },
+  {
+    "_id": "6abc1c09a876585ea504632b",
+    "name": "Silicone Sleep Earplugs (Noise Reduction)",
+    "description": "Reusable ergonomic sound-blocking buds in a travel case.",
+    "retailPrice": 220
+  },
+  {
+    "_id": "6abc1c09a876585ea50462e3",
+    "name": "20W PD Type-C Fast Charger",
+    "description": "Compact travel wall adapter, supports quick charge for iPhone and Android.",
+    "retailPrice": 550
+  },
+  {
+    "_id": "6abc1c09a876585ea50462f7",
+    "name": "Conductive Gaming Finger Sleeves (Pair)",
+    "description": "Breathable silver-fiber touch sleeves, sweat-proof for mobile gaming.",
+    "retailPrice": 120
+  },
+  {
+    "_id": "6abc1c09a876585ea504631f",
+    "name": "10-Inch Desktop Ring Light with Tripod",
+    "description": "3 lighting modes, USB powered, phone holder for live streaming.",
+    "retailPrice": 850
+  },
+  {
+    "_id": "6abc1c09a876585ea5046307",
+    "name": "Adjustable Desktop Phone & Tablet Stand",
+    "description": "Foldable aluminum/ABS desk mount with weighted non-slip base.",
+    "retailPrice": 320
+  },
+  {
+    "_id": "6abc1c09a876585ea5046303",
+    "name": "Waterproof Floating Phone Pouch",
+    "description": "Touch-sensitive clear PVC dry bag for rainy season and pools.",
+    "retailPrice": 190
+  },
+  {
+    "_id": "6abc1c09a876585ea50462eb",
+    "name": "Smart Fitness Band / Watch",
+    "description": "1.4-inch color screen, heart-rate tracking, step counter, IP67 waterproof.",
+    "retailPrice": 1250
+  },
+  {
+    "_id": "6abc1c09a876585ea504630f",
+    "name": "USB Rechargeable Neck Fan",
+    "description": "Bladeless hands-free personal cooler for commutes and load-shedding.",
+    "retailPrice": 850
+  },
+  {
+    "_id": "6abc1c09a876585ea50462e7",
+    "name": "Magnetic Wireless Power Bank (5000mAh)",
+    "description": "MagSafe-compatible slim snap-on battery pack with LED indicators.",
+    "retailPrice": 1450
+  },
+  {
+    "_id": "6abc1c09a876585ea50462df",
+    "name": "TWS Bluetooth Earbuds with LED Display",
+    "description": "Bluetooth 5.3, digital battery readout case, noise reduction.",
+    "retailPrice": 850
+  },
+  {
+    "_id": "6abc1c09a876585ea50462fb",
+    "name": "Bluetooth Selfie Stick Tripod with Remote",
+    "description": "Extendable 3-in-1 monopod with detachable wireless shutter.",
+    "retailPrice": 690
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a069e",
+    "name": "Ultrasonic Facial Skin Scrubber",
+    "description": "Deep pore spatula for blackhead removal and serum infusion.",
+    "retailPrice": 1150
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06b2",
+    "name": "Heated USB Eyelash Curler",
+    "description": "Quick-heating temperature-controlled curved silicone curler.",
+    "retailPrice": 520
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06c2",
+    "name": "Pocket Deep-Tissue Mini Massage Gun",
+    "description": "4 interchangeable heads, USB-C rechargeable, muscular recovery.",
+    "retailPrice": 1350
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06ca",
+    "name": "Electric Callus Foot Grinder",
+    "description": "Motorized roller pedicure file to remove dead skin and calluses.",
+    "retailPrice": 590
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06a2",
+    "name": "Silicone Scalp Massage Shampoo Brush",
+    "description": "Soft bristles for dandruff removal and scalp blood circulation.",
+    "retailPrice": 180
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06be",
+    "name": "Adjustable Clavicle Posture Corrector",
+    "description": "Breathable back support brace to fix slouching and shoulder pain.",
+    "retailPrice": 550
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06aa",
+    "name": "Portable Nano Hydrating Mist Sprayer",
+    "description": "Pocket USB water vaporizer for instant skin hydration.",
+    "retailPrice": 280
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06ae",
+    "name": "Vacuum Blackhead Suction Remover",
+    "description": "3-speed electronic pore vacuum with interchangeable nozzle heads.",
+    "retailPrice": 850
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06c6",
+    "name": "Electric Heated Shiatsu Neck Massager",
+    "description": "3D kneading rollers for neck, shoulder, and lower back relief.",
+    "retailPrice": 1600
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06da",
+    "name": "Compression Knee Support Sleeve",
+    "description": "Elastic silicone-padded knee brace for gym and joint pain.",
+    "retailPrice": 380
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06b6",
+    "name": "Nano Crystal Painless Hair Eraser",
+    "description": "Physical exfoliating hair removal tool for arms and legs.",
+    "retailPrice": 250
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06a6",
+    "name": "Electric 4-in-1 Facial Cleansing Brush",
+    "description": "Rotating waterproof scrubber with exfoliating and soft brush heads.",
+    "retailPrice": 650
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06ba",
+    "name": "13-Piece Soft Bristle Makeup Brush Set",
+    "description": "Complete powder, foundation, and eye brush kit in a matching pouch.",
+    "retailPrice": 600
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a069a",
+    "name": "Jade Roller & Gua Sha Facial Tool",
+    "description": "Natural stone set for lymphatic drainage and reducing facial puffiness.",
+    "retailPrice": 490
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06d2",
+    "name": "Painless Eyebrow Trimmer Pen",
+    "description": "Precision micro-blade electric razor for eyebrow shaping.",
+    "retailPrice": 350
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06d6",
+    "name": "Silicone Anti-Snoring Nose Clip",
+    "description": "Magnetic breathing dilator to clear airways and reduce snoring.",
+    "retailPrice": 180
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a0696",
+    "name": "Hydrocolloid Acne Pimple Patches (36 pcs)",
+    "description": "Invisible spot-absorbing stickers for blemish extraction.",
+    "retailPrice": 220
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06e2",
+    "name": "Silicone Ice Face Roller",
+    "description": "Refillable ice mold for facial cryotherapy, depuffing, and pores.",
+    "retailPrice": 320
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06ce",
+    "name": "Reusable Silicone Anti-Wrinkle Eye Pads",
+    "description": "Medical-grade silicone patches to lift under-eye wrinkles.",
+    "retailPrice": 200
+  },
+  {
+    "_id": "6abc1ce0602ef376c32a06de",
+    "name": "Bluetooth Sleep Eye Mask with Headphones",
+    "description": "Blackout padded mask with integrated slim flat speakers.",
+    "retailPrice": 990
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b66",
+    "name": "360° Rotating Faucet Aerator Filter",
+    "description": "Splash-proof dual spray nozzle with built-in mineral filter.",
+    "retailPrice": 260
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b62",
+    "name": "Glass Oil Sprayer Bottle for Air Fryer",
+    "description": "Fine mist spray bottle for controlled cooking oil distribution.",
+    "retailPrice": 350
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b82",
+    "name": "Triangular Corner Sink Strainer Basket",
+    "description": "Hanging filter mesh for food waste disposal and leftover collection.",
+    "retailPrice": 160
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b8e",
+    "name": "Collapsible Silicone Funnel Set",
+    "description": "Food-grade folding funnels for liquid transfer.",
+    "retailPrice": 140
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b76",
+    "name": "5-Blade Stainless Steel Herb Scissors",
+    "description": "Multi-shear culinary scissors with cleaning comb.",
+    "retailPrice": 290
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b5e",
+    "name": "Automatic Electric Water Dispenser Pump",
+    "description": "Rechargeable pump that fits standard 5-gallon water carboys.",
+    "retailPrice": 480
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b86",
+    "name": "Reusable Lint & Pet Fur Remover Roller",
+    "description": "Self-cleaning base brush for sofas, clothes, and rugs.",
+    "retailPrice": 390
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b96",
+    "name": "Reusable Silicone Air Fryer Liner Pan",
+    "description": "Heat-resistant, non-stick reusable baking bowl with handles.",
+    "retailPrice": 280
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b9a",
+    "name": "Handheld Electric Milk Frother",
+    "description": "Stainless steel whisk for coffee foam, matcha, and beat eggs.",
+    "retailPrice": 260
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b52",
+    "name": "Portable USB Smoothie Blender",
+    "description": "6-blade rechargeable personal juicer bottle for shakes on the go.",
+    "retailPrice": 850
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b6a",
+    "name": "Silicone Stretch Lids (Set of 6)",
+    "description": "Airtight, reusable food preservation covers for bowls and fruits.",
+    "retailPrice": 240
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b56",
+    "name": "12-in-1 Multifunctional Vegetable Chopper",
+    "description": "Manual slicer, dicer, and grater with catch container and drain basket.",
+    "retailPrice": 990
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b6e",
+    "name": "Non-Stick Silicone Spatula & Egg Tongs",
+    "description": "2-in-1 grip and flip silicone clamp spatula for omelets.",
+    "retailPrice": 220
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b8a",
+    "name": "Waterproof Mildew-Resistant Caulk Tape",
+    "description": "Self-adhesive PVC sealing strip for sink borders and toilets.",
+    "retailPrice": 200
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b9e",
+    "name": "Stainless Steel Pineapple Peeler & Corer",
+    "description": "Spiral coring machine that slices rings in seconds.",
+    "retailPrice": 320
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b7a",
+    "name": "3-Stage Diamond Ceramic Knife Sharpener",
+    "description": "Quick manual edge-restoring whetstone kitchen tool.",
+    "retailPrice": 340
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b7e",
+    "name": "Super Absorbent Quick-Dry Floor Mat",
+    "description": "Diatomite rubber-backed non-slip bathroom runner.",
+    "retailPrice": 380
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b92",
+    "name": "Wall-Mounted Toothpaste Squeezer Dispenser",
+    "description": "Punch-free automatic vacuum dispenser with toothbrush rack.",
+    "retailPrice": 550
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b72",
+    "name": "Under-Sink 2-Tier Sliding Drawer Rack",
+    "description": "Space-saving storage organizer with hooks for kitchen or bath.",
+    "retailPrice": 1200
+  },
+  {
+    "_id": "6abc1d4500086c1a7e2d8b5a",
+    "name": "Handheld Mini Heat Sealer with Cutter",
+    "description": "2-in-1 portable bag resealer for snack freshness.",
+    "retailPrice": 290
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8aee",
+    "name": "Heavy-Duty Aesthetic Clear Mesh Backpack",
+    "description": "Breathable see-through school and commute pack.",
+    "retailPrice": 890
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8b06",
+    "name": "Magnetic Couple Attraction Bracelets (Pair)",
+    "description": "Braided rope matching charm bracelets for relationships.",
+    "retailPrice": 220
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8aea",
+    "name": "Foldable Dry/Wet Separation Travel Duffle",
+    "description": "Expandable waterproof gym bag with trolley sleeve.",
+    "retailPrice": 650
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8b0e",
+    "name": "Elastic No-Tie Shoelaces with Metal Lock",
+    "description": "Stretch tieless shoestring capsules for sneakers.",
+    "retailPrice": 150
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8b1a",
+    "name": "Portable Mini Travel Jewelry Case",
+    "description": "PU leather travel organizer for rings, earrings, and necklaces.",
+    "retailPrice": 390
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8ae6",
+    "name": "RFID-Blocking Pop-Up Aluminum Wallet",
+    "description": "Minimalist cardholder with automatic slider lever mechanism.",
+    "retailPrice": 490
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8af6",
+    "name": "Quick-Release Tactical Nylon Belt",
+    "description": "Heavy-duty alloy buckle military-style utility waist belt.",
+    "retailPrice": 320
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8afe",
+    "name": "Stainless Steel Cuban Chain Necklace",
+    "description": "Non-tarnish waterproof curb link chain for men and women.",
+    "retailPrice": 290
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8af2",
+    "name": "Seamless High-Waist Tummy Control Shaper",
+    "description": "Elastic slimming underwear with anti-slip silicone band.",
+    "retailPrice": 350
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8b12",
+    "name": "Multi-Pocket Canvas Tote Bag",
+    "description": "Large commuter handbag with zipper and inner compartments.",
+    "retailPrice": 590
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8b16",
+    "name": "Sweat-Wicking Non-Slip Sports Headband",
+    "description": "Moisture-absorbing elastic athletic band for workout and running.",
+    "retailPrice": 160
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8b1e",
+    "name": "Silicone Waterproof Rain Shoe Covers",
+    "description": "Reusable non-slip boot protectors for monsoon puddles.",
+    "retailPrice": 280
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8b22",
+    "name": "Seamless Wire-Free Push-Up Bralette",
+    "description": "Deep-V breathable everyday contour bra.",
+    "retailPrice": 420
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8b2a",
+    "name": "Anti-Blue Light Computer Glasses",
+    "description": "TR90 lightweight frame to block screen glare and eye fatigue.",
+    "retailPrice": 290
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8b0a",
+    "name": "Retro Vintage Small Square Sunglasses",
+    "description": "90s aesthetic narrow rectangular UV-blocking shades.",
+    "retailPrice": 250
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8b2e",
+    "name": "Ultra-Lightweight Slip-On Mesh Sneakers",
+    "description": "Breathable soft-sole walking shoes for daily transit.",
+    "retailPrice": 1150
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8ae2",
+    "name": "Anti-Theft Sling Chest Bag with USB",
+    "description": "Water-resistant crossbody shoulder pack with combination lock.",
+    "retailPrice": 750
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8b26",
+    "name": "Graduated Compression Running Socks",
+    "description": "Knee-high circulation-boosting socks for swelling relief.",
+    "retailPrice": 270
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8afa",
+    "name": "Photochromic Day & Night Driving Glasses",
+    "description": "Polarized UV400 lenses that darken under direct sunlight.",
+    "retailPrice": 450
+  },
+  {
+    "_id": "6abc1dcf1536b6807cdd8b02",
+    "name": "Vintage PU Leather Underarm Shoulder Bag",
+    "description": "Classic baguette tote with zipper closure for everyday wear.",
+    "retailPrice": 950
+  },
+  {
+    "_id": "6abd5e803decedecc3e87fa1",
+    "name": "Modular L-Shaped Sectional Sofa",
+    "description": "A luxurious and modern modular L-shaped sectional sofa. Designed for maximum comfort with premium fabric upholstery and a sturdy frame. Perfect for contemporary living spaces.",
+    "retailPrice": 120
+  },
+  {
+    "_id": "6abd5e803decedecc3e87fa2",
+    "name": "Solid Wood Kung-Fu Tea Table",
+    "description": "Traditional solid wood Kung-Fu tea table. Features exquisite craftsmanship, natural wood grain finish, and built-in drainage system for an authentic tea ceremony experience.",
+    "retailPrice": 38
+  },
+  {
+    "_id": "6abd5e803decedecc3e87fa3",
+    "name": "Clinical Anesthesia Workstation",
+    "description": "Advanced clinical anesthesia workstation with integrated ventilator, precision vaporizers, and comprehensive patient monitoring capabilities. Ensures maximum patient safety.",
+    "retailPrice": 650
+  },
+  {
+    "_id": "6abd5e803decedecc3e87fa4",
+    "name": "ICU Electric Hospital Bed Unit",
+    "description": "Fully electric ICU hospital bed with multi-function positioning, side rails, and integrated controls. Designed for critical care environments and patient comfort.",
+    "retailPrice": 280
+  },
+  {
+    "_id": "6abd5e813decedecc3e87fa5",
+    "name": "Vitacore-X Diagnostic Monitor",
+    "description": "High-resolution diagnostic medical monitor providing accurate color reproduction and crystal-clear imaging for precise clinical evaluations.",
+    "retailPrice": 160
+  },
+  {
+    "_id": "6abd5e813decedecc3e87fa6",
+    "name": "High-Back Mesh Office Chair",
+    "description": "Ergonomic high-back office chair with breathable mesh back, adjustable lumbar support, and smooth-rolling casters. Ideal for long hours of productive work.",
+    "retailPrice": 32
+  },
+  {
+    "_id": "6abd5e813decedecc3e87fa7",
+    "name": "Smart Biometric Digital Lock",
+    "description": "Next-generation smart door lock featuring biometric fingerprint recognition, PIN code access, and advanced encryption for ultimate office security.",
+    "retailPrice": 28
+  },
+  {
+    "_id": "6abd5e813decedecc3e87fa8",
+    "name": "Tactical Military Duffel (55L)",
+    "description": "Rugged 55L tactical military duffel bag. Constructed with heavy-duty water-resistant nylon, reinforced stitching, and multiple MOLLE webbing attachment points.",
+    "retailPrice": 9.4
+  },
+  {
+    "_id": "6abd5e813decedecc3e87fa9",
+    "name": "Vintage Washed Canvas Rucksack",
+    "description": "Stylish vintage washed canvas rucksack. Features genuine leather accents, spacious main compartment, and durable brass hardware. Perfect for urban commuting or weekend getaways.",
+    "retailPrice": 8.9
+  },
+  {
+    "_id": "6abd5e813decedecc3e87faa",
+    "name": "Quilted Leather Handbag",
+    "description": "Elegant quilted leather handbag with a premium chain strap. A timeless accessory that perfectly blends sophistication with everyday practicality.",
+    "retailPrice": 6.2
+  },
+  {
+    "_id": "6abd5e813decedecc3e87fab",
+    "name": "Commuter Laptop Backpack",
+    "description": "Sleek commuter laptop backpack with padded compartment for 15-inch laptops. Ergonomic design, water-resistant exterior, and hidden anti-theft pockets.",
+    "retailPrice": 5.2
+  },
+  {
+    "_id": "6abd5e813decedecc3e87fac",
+    "name": "Minimalist Travel Shoulder Bag",
+    "description": "Ultra-lightweight minimalist travel shoulder bag by Groove. Designed for essentials, featuring quick-access pockets and an adjustable cross-body strap.",
+    "retailPrice": 4.8
+  },
+  {
+    "_id": "6abd5e813decedecc3e87fad",
+    "name": "Classic All-Star High-Tops",
+    "description": "The iconic Classic All-Star High-Top sneakers. Canvas upper, classic rubber toe cap, and unmistakable star ankle patch. A staple for any wardrobe.",
+    "retailPrice": 4.2
+  },
+  {
+    "_id": "6abd5e813decedecc3e87fae",
+    "name": "Air Jordan 1 Retro High Top",
+    "description": "Legendary Air Jordan 1 Retro High Tops. Premium leather construction, encapsulated Air-Sole unit, and timeless court-inspired style.",
+    "retailPrice": 14.8
+  },
+  {
+    "_id": "6abd5e813decedecc3e87faf",
+    "name": "Air Zoom Pegasus 36",
+    "description": "Nike Air Zoom Pegasus 36 running shoes. Engineered mesh upper for breathability, slim collar, and Zoom Air cushioning for a responsive ride.",
+    "retailPrice": 11.5
+  },
+  {
+    "_id": "6abd5e813decedecc3e87fb0",
+    "name": "Cyberpunk LED Sneakers",
+    "description": "Futuristic Cyberpunk LED sneakers by RTFKT. Features dynamic programmable LED strips, chunky bold silhouette, and next-gen cushioning technology.",
+    "retailPrice": 26
+  },
+  {
+    "_id": "6abd5e813decedecc3e87fb1",
+    "name": "Signature Puffer Jacket",
+    "description": "Signature Tommy Hilfiger puffer jacket. Insulated for superior warmth, featuring the classic logo embroidery and a modern, flattering fit.",
+    "retailPrice": 16.5
+  },
+  {
+    "_id": "6abd5e823decedecc3e87fb2",
+    "name": "Old Skool Low-Top Suede",
+    "description": "Vans Old Skool low-top skate shoes in premium suede. Features the iconic side stripe, reinforced toecaps, and signature rubber waffle outsoles.",
+    "retailPrice": 5.6
+  },
+  {
+    "_id": "6abd5e823decedecc3e87fb3",
+    "name": "Black Flame Streetwear Hoodie",
+    "description": "Heavyweight black streetwear hoodie with striking flame graphics. Relaxed drop-shoulder fit, premium cotton blend, and ribbed cuffs.",
+    "retailPrice": 7.5
+  },
+  {
+    "_id": "6abd5e823decedecc3e87fb4",
+    "name": "Oversized Graphic T-Shirt (Black)",
+    "description": "Essential oversized black graphic t-shirt. Soft, breathable cotton construction with a bold contemporary print for an effortless streetwear look.",
+    "retailPrice": 2.8
+  },
+  {
+    "_id": "6abd5e823decedecc3e87fb5",
+    "name": "MacBook Pro 14-inch M5 Concept",
+    "description": "Concept MacBook Pro 14-inch featuring the next-generation M5 chip. Unprecedented performance, stunning Liquid Retina XDR display, and all-day battery life.",
+    "retailPrice": 790
+  },
+  {
+    "_id": "6abd5e823decedecc3e87fb6",
+    "name": "MacBook Pro 16-inch M3 Max",
+    "description": "Powerful MacBook Pro 16-inch with M3 Max chip. Built for extreme workflows, featuring massive unified memory and incredible graphics performance.",
+    "retailPrice": 680
+  },
+  {
+    "_id": "6abd5e823decedecc3e87fb7",
+    "name": "Watch Ultra 2 Rugged (49mm)",
+    "description": "Apple Watch Ultra 2 with a 49mm aerospace-grade titanium case. The ultimate rugged smartwatch for extreme sports, diving, and outdoor adventures.",
+    "retailPrice": 24
+  },
+  {
+    "_id": "6abd5e823decedecc3e87fb8",
+    "name": "AirPods Pro OEM Replica",
+    "description": "High-quality OEM replica of AirPods Pro. Features active noise cancellation, transparency mode, and spatial audio support.",
+    "retailPrice": 8.5
+  },
+  {
+    "_id": "6abd5e823decedecc3e87fb9",
+    "name": "Hero 13 Black Action Camera",
+    "description": "GoPro Hero 13 Black action camera. Capture stunning 5.3K video, hyper-smooth stabilization, and incredible low-light performance.",
+    "retailPrice": 68
+  },
+  {
+    "_id": "6abd5e823decedecc3e87fba",
+    "name": "Pavilion x360 2-in-1 (14-inch)",
+    "description": "Versatile HP Pavilion x360 14-inch 2-in-1 convertible laptop. Features a responsive touchscreen, powerful processor, and flexible 360-degree hinge.",
+    "retailPrice": 185
+  },
+  {
+    "_id": "6abd5e823decedecc3e87fbb",
+    "name": "ONE X2 360-Degree Camera",
+    "description": "Insta360 ONE X2 pocket 360-degree action camera. Shoot in every direction with 5.7K resolution, invisible selfie stick effect, and AI editing.",
+    "retailPrice": 55
+  },
+  {
+    "_id": "6abd5e823decedecc3e87fbc",
+    "name": "PartyBox 110 High-Power",
+    "description": "JBL PartyBox 110 portable party speaker. Massive JBL Original Pro Sound, dynamic built-in light show, and splash-proof design.",
+    "retailPrice": 48
+  },
+  {
+    "_id": "6abd5e823decedecc3e87fbd",
+    "name": "Tour One M2 Over-Ear ANC",
+    "description": "JBL Tour One M2 over-ear headphones. True Adaptive Noise Cancelling, immersive spatial audio, and up to 50 hours of playback time.",
+    "retailPrice": 24
+  },
+  {
+    "_id": "6abd5e833decedecc3e87fbe",
+    "name": "Charge 3 Waterproof Speaker",
+    "description": "JBL Charge 3 waterproof portable Bluetooth speaker. Delivers powerful stereo sound and acts as a power bank to charge your devices.",
+    "retailPrice": 11.5
+  },
+  {
+    "_id": "6abd5e833decedecc3e87fbf",
+    "name": "Galaxy Watch 7 (44mm)",
+    "description": "Samsung Galaxy Watch 7 44mm. Advanced health tracking, personalized sleep coaching, and seamless integration with the Galaxy ecosystem.",
+    "retailPrice": 22.5
+  },
+  {
+    "_id": "6abd5e833decedecc3e87fc0",
+    "name": "Classic Wooden Longboard",
+    "description": "Classic wooden longboard by Arcadia. Features a flexible bamboo/maple deck, smooth-rolling polyurethane wheels, and responsive trucks for cruising.",
+    "retailPrice": 23
+  },
+  {
+    "_id": "6abd5e833decedecc3e87fc1",
+    "name": "M6 GT3 1:18 Scale Endurance",
+    "description": "Highly detailed 1:18 scale die-cast replica of the BMW M6 GT3 endurance racer. Features authentic livery, opening doors, and detailed interior.",
+    "retailPrice": 22
+  },
+  {
+    "_id": "6abd5e833decedecc3e87fc2",
+    "name": "Corvette C6.R 1:18 Race",
+    "description": "1:18 scale model of the legendary 2010 Chevrolet Corvette C6.R race car. Meticulous aerodynamic details, race interior, and sponsor decals.",
+    "retailPrice": 18.5
+  },
+  {
+    "_id": "6abd5e833decedecc3e87fc3",
+    "name": "1963 C10 Vintage Pickup",
+    "description": "Stylized low-poly 1963 Chevrolet C10 vintage pickup truck model. A charming collectible perfect for desk display or architectural dioramas.",
+    "retailPrice": 5.4
+  },
+  {
+    "_id": "6abd5e833decedecc3e87fc4",
+    "name": "720S GT3 1:18 Alloy Replica",
+    "description": "Premium 1:18 scale alloy replica of the 2020 McLaren 720S GT3. Stunning aerodynamic curves, detailed engine bay, and aggressive race stance.",
+    "retailPrice": 21
+  },
+  {
+    "_id": "6abd5e833decedecc3e87fc5",
+    "name": "Pint Electric Self-Balancing",
+    "description": "The OneWheel Pint. A compact, fun, and highly maneuverable electric self-balancing board for urban commuting and carving up pavement.",
+    "retailPrice": 245
+  },
+  {
+    "_id": "6abd5e833decedecc3e87fc6",
+    "name": "2024 992 GT3 R 1:18 Scale",
+    "description": "Exceptional 1:18 scale model of the 2024 Porsche 992 GT3 R. Incredibly detailed track-focused aerodynamics, massive rear wing, and realistic chassis.",
+    "retailPrice": 24.5
+  },
+  {
+    "_id": "6abd5e833decedecc3e87fc7",
+    "name": "Battle-Damaged Optimus Prime",
+    "description": "Earth Wars '86 Battle-Damaged Optimus Prime collectible figure. Features authentic battle weathering, iconic blaster, and premium articulation.",
+    "retailPrice": 16
+  },
+  {
+    "_id": "6abd629a765cc0fc9a30ab0c",
+    "name": "iPhone 18 Pro Max Heritage (512GB)",
+    "description": "Experience the ultimate iPhone with a heritage burgundy finish.",
+    "retailPrice": 760
+  },
+  {
+    "_id": "6abd629a765cc0fc9a30ab0d",
+    "name": "iPhone 17 Pro Max (512GB)",
+    "description": "The pro standard with advanced cameras.",
+    "retailPrice": 720
+  },
+  {
+    "_id": "6abd629a765cc0fc9a30ab0e",
+    "name": "iPhone 17 Pro Titanium Black",
+    "description": "Premium titanium finish.",
+    "retailPrice": 610
+  },
+  {
+    "_id": "6abd629b765cc0fc9a30ab0f",
+    "name": "iPhone 17 Air Ultra-Slim",
+    "description": "Incredibly thin and lightweight.",
+    "retailPrice": 510
+  },
+  {
+    "_id": "6abd629b765cc0fc9a30ab10",
+    "name": "iPhone 16 Pro Max (256GB)",
+    "description": "Powerful performance in a large form factor.",
+    "retailPrice": 580
+  },
+  {
+    "_id": "6abd629b765cc0fc9a30ab11",
+    "name": "iPad Pro M-Series (11-inch)",
+    "description": "The ultimate iPad experience.",
+    "retailPrice": 460
+  },
+  {
+    "_id": "6abd629b765cc0fc9a30ab12",
+    "name": "Phone (4a) Transparent Concept",
+    "description": "Unique transparent design.",
+    "retailPrice": 240
+  },
+  {
+    "_id": "6abd629b765cc0fc9a30ab13",
+    "name": "13S Flagship (16GB/512GB)",
+    "description": "Unmatched speed and multitasking.",
+    "retailPrice": 380
+  },
+  {
+    "_id": "6abd629b765cc0fc9a30ab14",
+    "name": "12 5G (8GB/128GB)",
+    "description": "Affordable 5G connectivity.",
+    "retailPrice": 125
+  },
+  {
+    "_id": "6abd629b765cc0fc9a30ab15",
+    "name": "Galaxy Z Fold 7 Concept",
+    "description": "The future of folding phones.",
+    "retailPrice": 820
+  }
+]
