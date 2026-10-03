@@ -5,7 +5,11 @@ import path from 'path';
 const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
-  serverExternalPackages: ['pdfkit'],
+  serverExternalPackages: ['pdfkit', 'mongoose', 'nodemailer', 'jspdf', 'stripe'],
+  outputFileTracingRoot: process.cwd(),
+  experimental: {
+    optimizePackageImports: ['lucide-react', 'three', '@react-three/drei', '@react-three/fiber'],
+  },
   devIndicators: {
     appIsrStatus: false,
     buildActivity: false,
