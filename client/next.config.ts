@@ -5,12 +5,7 @@ import path from 'path';
 const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
-  // Tells Next.js to skip bundling pdfkit and use the native Node module instead
   serverExternalPackages: ['pdfkit'],
-
-  turbopack: {
-    root: path.join(__dirname, '..'),
-  },
   devIndicators: {
     appIsrStatus: false,
     buildActivity: false,
