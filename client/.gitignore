@@ -40,3 +40,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .env.local
+
+# Ignore 3D models and videos from Tailwind CSS v4 scanner
+*.glb
+*.mp4
