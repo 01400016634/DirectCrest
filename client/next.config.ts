@@ -10,10 +10,7 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ['lucide-react', 'three', '@react-three/drei', '@react-three/fiber'],
   },
-  devIndicators: {
-    appIsrStatus: false,
-    buildActivity: false,
-  },
+
   async rewrites() {
     return [
       {

@@ -6,7 +6,7 @@ import { onAuthStateChanged, updateProfile, signOut, User } from 'firebase/auth'
 import { User as UserIcon, LogOut, Loader2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
-export function WelcomeHeader() {
+export function WelcomeHeader({ user: propUser }: { user?: User | null }) {
   const [user, setUser] = useState<User | null>(null);
   useEffect(() => {
     return onAuthStateChanged(auth, setUser);
@@ -15,7 +15,7 @@ export function WelcomeHeader() {
   return <p className="text-gray-400 mt-2 text-lg">Welcome back, {user?.displayName?.split(' ')[0] || user?.email?.split('@')[0] || 'Guest'}! Ready to streamline your wholesale procurement today?</p>;
 }
 
-export function SidebarProfile() {
+export function SidebarProfile({ user: propUser }: { user?: User | null }) {
   const [user, setUser] = useState<User | null>(null);
   useEffect(() => {
     return onAuthStateChanged(auth, setUser);

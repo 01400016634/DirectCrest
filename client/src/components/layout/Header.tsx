@@ -95,7 +95,7 @@ export default function Header({ settings }: { settings?: any }) {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex space-x-8">
-            {navLinks.map((link, idx) => (
+            {navLinks.map((link: any, idx: number) => (
               <Link key={idx} href={link.href} className="text-sm font-semibold text-blue-100 hover:text-white transition-colors">
                 {link.label}
               </Link>
@@ -214,7 +214,7 @@ export default function Header({ settings }: { settings?: any }) {
             className="lg:hidden bg-[#04060f]/95 backdrop-blur-xl border-b border-blue-900/40 overflow-hidden"
           >
             <div className="px-4 pt-2 pb-6 flex flex-col space-y-4">
-              {navLinks.map((link, idx) => (
+              {navLinks.map((link: any, idx: number) => (
                 <Link 
                   key={idx} 
                   href={link.href} 

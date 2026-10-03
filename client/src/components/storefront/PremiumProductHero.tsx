@@ -251,7 +251,7 @@ function Hero3DScene() {
 
       <ContactShadows position={[0, -2, 0]} opacity={0.5} scale={10} blur={2} far={4} color="#000000" />
 
-      <EffectComposer disableNormalPass multisampling={4}>
+      <EffectComposer multisampling={4}>
         <Bloom luminanceThreshold={1} intensity={0.5} />
         <Noise opacity={0.02} />
         <Vignette eskil={false} offset={0.1} darkness={1.1} />

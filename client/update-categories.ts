@@ -18,7 +18,7 @@ const categoryMapping = {
 };
 
 async function updateCategories() {
-  await --mongoose.connect(MONGODB_URI!);
+  await mongoose.connect(MONGODB_URI!);
   console.log('Connected to DB');
 
   for (const [oldName, newName] of Object.entries(categoryMapping)) {

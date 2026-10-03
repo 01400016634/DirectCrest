@@ -67,7 +67,7 @@ function Stars() {
   return (
     <points ref={ref}>
       <bufferGeometry>
-        <bufferAttribute attach="attributes-position" count={300} array={st} itemSize={3} />
+        <bufferAttribute attach="attributes-position" count={300} array={st} itemSize={3} args={[st, 3]} />
       </bufferGeometry>
       <pointsMaterial size={0.8} color={0x9fd8ff} />
     </points>
@@ -116,8 +116,8 @@ function Globe() {
       </mesh>
       <points>
         <bufferGeometry>
-          <bufferAttribute attach="attributes-position" count={pp.length / 3} array={pp} itemSize={3} />
-          <bufferAttribute attach="attributes-color" count={pc.length / 3} array={pc} itemSize={3} />
+          <bufferAttribute attach="attributes-position" count={pp.length / 3} array={pp} itemSize={3} args={[pp, 3]} />
+          <bufferAttribute attach="attributes-color" count={pc.length / 3} array={pc} itemSize={3} args={[pc, 3]} />
         </bufferGeometry>
         <pointsMaterial size={0.07} vertexColors />
       </points>
@@ -170,9 +170,10 @@ function Airplane({ phase, t0 }: { phase: string, t0: number }) {
 
   return (
     <>
+      {/* @ts-ignore */}
       <line ref={trailRef}>
         <bufferGeometry>
-          <bufferAttribute attach="attributes-position" count={300} array={trA} itemSize={3} />
+          <bufferAttribute attach="attributes-position" count={300} array={trA} itemSize={3} args={[trA, 3]} />
         </bufferGeometry>
         <lineBasicMaterial color={0xffb347} />
       </line>
@@ -243,7 +244,7 @@ function Tunnel() {
       {lines.map((lineData, k) => (
         <line key={`l-${k}`}>
           <bufferGeometry>
-            <bufferAttribute attach="attributes-position" count={2} array={lineData} itemSize={3} />
+            <bufferAttribute attach="attributes-position" count={2} array={lineData} itemSize={3} args={[lineData, 3]} />
           </bufferGeometry>
           <lineBasicMaterial color={0x2a6bff} transparent opacity={0.35} />
         </line>

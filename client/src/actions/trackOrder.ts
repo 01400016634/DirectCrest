@@ -46,7 +46,7 @@ export async function trackOrderAction(formData: FormData) {
 
     // Fetch shipment and tracking events
     const shipment = await Shipment.findOne({ orderId: order._id }).lean();
-    let trackingEvents = [];
+    let trackingEvents: any[] = [];
     if (shipment) {
       trackingEvents = await TrackingEvent.find({ shipmentId: shipment._id }).sort({ createdAt: 1 }).lean();
     }

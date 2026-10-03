@@ -3,9 +3,10 @@ import { Order, OrderItem, User } from '@/lib/models/Schema';
 import Link from 'next/link';
 import { ChevronLeft } from 'lucide-react';
 
-export default async function InvoicePage({ params }: { params: { id: string, locale: string } }) {
+export default async function InvoicePage({ params }: { params: Promise<{ id: string, locale: string }> }) {
+  const resolvedParams = await params;
   await dbConnect();
-  const order = await Order.findById(params.id).populate('userId').lean();
+  const order = await Order.findById(resolvedParams.id).populate('userId').lean();
   
   if (!order) {
     return <div className="p-8 text-white">Order not found</div>;

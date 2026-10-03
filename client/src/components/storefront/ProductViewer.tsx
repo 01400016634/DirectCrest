@@ -1,5 +1,7 @@
 'use client';
 
+import React from 'react';
+
 export default function ProductViewer({ 
   modelUrl, 
   interactive = true,
@@ -32,19 +34,19 @@ export default function ProductViewer({
         </div>
       )}
       
-      <model-viewer
-        src={absoluteModelUrl}
-        poster={poster}
-        alt="3D product model"
-        auto-rotate
-        camera-controls={interactive ? true : undefined}
-        interaction-prompt="none"
-        shadow-intensity="1"
-        environment-image="neutral"
-        reveal="auto"
-        loading="lazy"
-        style={{ width: '100%', height: '100%', backgroundColor: 'transparent' }}
-      ></model-viewer>
+      {React.createElement('model-viewer', {
+        src: absoluteModelUrl,
+        poster: poster,
+        alt: "3D product model",
+        "auto-rotate": true,
+        "camera-controls": interactive ? true : undefined,
+        "interaction-prompt": "none",
+        "shadow-intensity": "1",
+        "environment-image": "neutral",
+        reveal: "auto",
+        loading: "lazy",
+        style: { width: '100%', height: '100%', backgroundColor: 'transparent' }
+      })}
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 dotenv.config({ path: '/Users/user/Documents/DirectCrest/client/.env' });
-import { Product } from './src/lib/models/Schema.ts';
+import { Product } from './src/lib/models/Schema';
 
 async function test() {
   await mongoose.connect(process.env.MONGODB_URI as string);

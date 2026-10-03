@@ -50,12 +50,12 @@ export default function CartPage() {
                   <div className="flex items-center space-x-4">
                     <div className="flex items-center bg-[#09090b] border border-gray-700 rounded-lg overflow-hidden">
                       <button 
-                        onClick={() => updateQuantity(item.product._id, Math.max(1, item.quantity - 1))}
+                        onClick={() => updateQuantity(item.product._id, undefined, Math.max(1, item.quantity - 1))}
                         className="px-3 py-1 text-gray-400 hover:text-white hover:bg-gray-800"
                       >-</button>
                       <span className="px-4 text-sm font-bold">{item.quantity}</span>
                       <button 
-                        onClick={() => updateQuantity(item.product._id, item.quantity + 1)}
+                        onClick={() => updateQuantity(item.product._id, undefined, item.quantity + 1)}
                         className="px-3 py-1 text-gray-400 hover:text-white hover:bg-gray-800"
                       >+</button>
                     </div>

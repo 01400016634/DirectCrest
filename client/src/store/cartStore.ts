@@ -8,7 +8,9 @@ export type WholesaleTier = {
 
 export type CartItem = {
   productId: string;
+  product?: any;
   variantId?: string;
+  weight?: number;
   name: string;
   price: number;
   wholesaleTiers?: WholesaleTier[];

@@ -17,7 +17,7 @@ export async function getSettings() {
   }
 }
 
-export async function updateSettings(formData: FormData) {
+export async function updateSettings(prevState: any, formData: FormData) {
   try {
     await dbConnect();
     const data = {

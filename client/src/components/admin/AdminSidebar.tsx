@@ -75,7 +75,7 @@ export default function AdminSidebar({ locale, logoutAction }: { locale: string,
                 }`}
               >
                 <span className={`mr-3 transition-colors ${isActive ? 'text-red-500' : 'text-gray-500 group-hover:text-red-500'}`}>
-                  {React.cloneElement(item.icon as React.ReactElement, { className: 'w-5 h-5' })}
+                  {React.cloneElement(item.icon as React.ReactElement<any>, { className: 'w-5 h-5' })}
                 </span>
                 {item.label}
               </Link>
