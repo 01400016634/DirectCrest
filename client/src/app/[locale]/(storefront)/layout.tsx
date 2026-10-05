@@ -6,8 +6,10 @@ import { getSettings } from "@/actions/settings";
 
 export default async function StorefrontLayout({
   children,
+  modal,
 }: {
   children: React.ReactNode;
+  modal: React.ReactNode;
 }) {
   const settingsRes = await getSettings();
   const settings = settingsRes.success ? settingsRes.settings : {};
@@ -18,6 +20,7 @@ export default async function StorefrontLayout({
       <main className="flex-1 flex flex-col relative z-10">
         {children}
       </main>
+      {modal}
       <SupportBubble />
       <Footer settings={settings} />
     </HomepageOverlay>

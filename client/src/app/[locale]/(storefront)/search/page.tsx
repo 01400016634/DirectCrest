@@ -72,6 +72,30 @@ export default async function SearchPage({
   const serializedProducts = JSON.parse(JSON.stringify(productsRaw));
 
   const categoriesRaw = await Category.find().lean();
+
+  const canonicalOrder = [
+    'Smartphones & Tablets',
+    'Laptops & Computers',
+    'Wearables & Audio',
+    'Medical & Laboratory',
+    'Toys, RC & Die-Cast',
+    'Apparel & Fashion',
+    'Footwear',
+    'Bags & Backpacks',
+    'Home & Office',
+    'Cameras & Power Banks',
+    'Smart Home & Security',
+    'Beauty & Cosmetics'
+  ];
+
+  categoriesRaw.sort((a, b) => {
+    const indexA = canonicalOrder.indexOf(a.name);
+    const indexB = canonicalOrder.indexOf(b.name);
+    const posA = indexA === -1 ? 999 : indexA;
+    const posB = indexB === -1 ? 999 : indexB;
+    return posA - posB;
+  });
+
   const serializedCategories = JSON.parse(JSON.stringify(categoriesRaw));
 
   return (

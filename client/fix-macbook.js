@@ -1,0 +1,12 @@
+const mongoose = require('mongoose');
+const MONGODB_URI = "mongodb://reajulhasan3230_db_user:oWzhul79tjCDCG8E@ac-qipxgo4-shard-00-00.ddoczsm.mongodb.net:27017,ac-qipxgo4-shard-00-01.ddoczsm.mongodb.net:27017,ac-qipxgo4-shard-00-02.ddoczsm.mongodb.net:27017/directcrest?ssl=true&replicaSet=atlas-xf9mi7-shard-0&authSource=admin&appName=Cluster0";
+
+async function fix() {
+  await mongoose.connect(MONGODB_URI);
+  
+  const m2 = await mongoose.connection.db.collection('products').find({ name: { $regex: 'Air M2', $options: 'i' } }).toArray();
+  console.log('Air M2 matches:', m2.map(m => m.name));
+  
+  process.exit(0);
+}
+fix();

@@ -26,7 +26,7 @@ export default async function HomePage() {
     const trendingRaw = await Product.find({ status: 'PUBLISHED', isTrending: true })
       .select('-cost')
       .sort({ createdAt: -1 })
-      .limit(8)
+      .limit(10)
       .lean();
     trendingProducts = JSON.parse(JSON.stringify(trendingRaw));
     
@@ -34,14 +34,40 @@ export default async function HomePage() {
     console.error('Failed to fetch homepage data:', error);
   }
 
-  const categories = [
-    { name: 'Home & Furniture', icon: '🏡', count: '40+ products' },
-    { name: 'Medical & Office Equipment', icon: '🩺', count: '40+ products' },
-    { name: 'Bags, Travel & Outdoor', icon: '🎒', count: '40+ products' },
-    { name: 'Fashion, Footwear & Accessories', icon: '👟', count: '40+ products' },
-    { name: 'Laptops, Wearables & Gadgets', icon: '💻', count: '40+ products' },
-    { name: 'Toys, RC & Die-Cast Collectibles', icon: '🏎️', count: '40+ products' },
-  ];
+  let categories: { name: string; icon: string; count: string }[] = [];
+  try {
+    const categoryCounts = await Product.aggregate([
+      { $match: { status: 'PUBLISHED' } },
+      { $group: { _id: '$categoryId', count: { $sum: 1 } } },
+      { $lookup: { from: 'categories', localField: '_id', foreignField: '_id', as: 'category' } },
+      { $unwind: '$category' }
+    ]);
+
+    const iconMap: Record<string, string> = {
+      'Smartphones & Tablets': '📱',
+      'Laptops, Wearables & Audio': '💻',
+      'Cameras & Power Banks': '📷',
+      'Toys, RC & Die-Cast Vehicles': '🏎️',
+      'Footwear': '👟',
+      'Apparel & Fashion': '👕',
+      'Bags & Backpacks': '🎒',
+      'Jewelry & Accessories': '💎',
+      'Medical & Laboratory Equipment': '🔬',
+      'Home, Office & Cosmetics': '🏢',
+    };
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    categories = categoryCounts.map((c: any) => ({
+      name: c.category.name,
+      icon: iconMap[c.category.name] || '📦',
+      count: `${c.count} product${c.count !== 1 ? 's' : ''}`
+    }));
+
+    // Sort to maintain a consistent order
+    categories.sort((a, b) => a.name.localeCompare(b.name));
+  } catch (error) {
+    console.error('Failed to fetch category counts:', error);
+  }
 
   return (
     <div className="text-white w-full">

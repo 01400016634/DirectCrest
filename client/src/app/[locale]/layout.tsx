@@ -34,7 +34,7 @@ export default async function RootLayout({
   const settings = settingsRes.success ? settingsRes.settings : {};
 
   return (
-    <html lang={locale} className={`${inter.variable} font-sans h-full antialiased`}>
+    <html lang={locale} className={`${inter.variable} font-sans h-full antialiased`} data-scroll-behavior="smooth">
       <body className="min-h-full flex flex-col bg-[#04060f] text-white">
         <Script id="meshopt-decoder" strategy="beforeInteractive" dangerouslySetInnerHTML={{
           __html: `

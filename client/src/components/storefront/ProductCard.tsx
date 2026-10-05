@@ -21,28 +21,25 @@ export default function ProductCard({ product, isWishlisted = false }: { product
         <div className="absolute top-3 right-3 z-10">
           <WishlistToggle productId={product._id.toString()} initialIsWishlisted={isWishlisted} />
         </div>
-        <div className="aspect-square bg-black/40 flex items-center justify-center p-4 relative">
+        <div className="aspect-square bg-black/40 flex items-center justify-center p-0 relative">
           {product.threeDModelUrl ? (
-            <>
-              <div className="absolute top-4 left-4 z-10 bg-black/50 backdrop-blur px-2 py-1 rounded-md text-[10px] font-bold text-red-400 border border-red-900/50 flex items-center shadow-lg pointer-events-none">
+            <div className="w-full h-full relative group-hover:scale-105 transition-transform duration-500">
+              <ProductViewer 
+                modelUrl={product.threeDModelUrl} 
+                interactive={false} 
+                showBadge={false}
+                className="w-full h-full"
+                poster={product.imageUrl || '/images/placeholder.png'}
+              />
+              <div className="absolute top-4 left-4 z-10 bg-black/50 backdrop-blur px-2 py-1 rounded-md text-[10px] font-bold text-red-400 border border-red-900/50 flex items-center shadow-lg pointer-events-none group-hover:opacity-0 transition-opacity">
                 3D View Available
               </div>
-
-              <div className="absolute inset-0 z-0 pointer-events-none">
-                <ProductViewer 
-                  modelUrl={product.threeDModelUrl} 
-                  interactive={false} 
-                  showBadge={false}
-                  poster={product.imageUrl || '/images/placeholder.png'}
-                  className="w-full h-full"
-                />
-              </div>
-            </>
+            </div>
           ) : (
             <img 
               src={product.imageUrl || '/images/placeholder.png'}  
               alt={product.name}
-              className="object-contain max-h-full opacity-80 group-hover:opacity-100 transition-opacity"
+              className="object-contain w-full h-full p-4 opacity-80 group-hover:opacity-100 transition-opacity"
               onError={(e) => {
                 (e.target as HTMLImageElement).src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="%239ca3af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>';
               }}
